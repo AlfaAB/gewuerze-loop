@@ -1,0 +1,103 @@
+{
+  "_hinweis": [
+    "Startliste. Der research-agent klopft sie jede Woche zusätzlich zur freien",
+    "Suche ab. Hier steuerst du die Ausrichtung, ohne Prompts anzufassen:",
+    "streichen, was nicht interessiert, ergänzen, was fehlt.",
+    "Namen sind Suchbegriffe, keine belegten Angaben: der Agent prüft selbst,",
+    "ob es die Firma gibt und ob die Meldung stimmt."
+  ],
+
+  "wettbewerber_handel": [
+    "Fuchs Gewürze",
+    "Ostmann",
+    "Ubena",
+    "Kotányi",
+    "Ankerkraut",
+    "Just Spices",
+    "Hartkorn Gewürzmühle",
+    "Bremer Gewürzhandel",
+    "Sonnentor",
+    "Herbaria",
+    "Lebensbaum"
+  ],
+
+  "wettbewerber_industrie": [
+    "Hela Gewürzwerk",
+    "Moguntia Food Group",
+    "Raps GmbH",
+    "AVO-Werke",
+    "Wiberg",
+    "Worlée NaturProdukte",
+    "Döhler",
+    "ofi (Olam Food Ingredients)",
+    "McCormick",
+    "Kerry Group",
+    "Symrise"
+  ],
+
+  "handel_eigenmarken": [
+    "Edeka",
+    "Rewe",
+    "Aldi",
+    "Lidl",
+    "Kaufland",
+    "dm",
+    "Rossmann"
+  ],
+
+  "verbaende_behoerden": [
+    "Fachverband der Gewürzindustrie",
+    "Waren-Verein der Hamburger Börse",
+    "European Spice Association (ESA)",
+    "Lebensmittelverband Deutschland",
+    "Bundesverband der Deutschen Ernährungsindustrie (BVE)",
+    "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL)",
+    "Bundesinstitut für Risikobewertung (BfR)",
+    "EU-Kommission GD SANTE",
+    "RASFF-Schnellwarnsystem",
+    "American Spice Trade Association (ASTA)",
+    "International Pepper Community"
+  ],
+
+  "messen": [
+    "Anuga",
+    "Food Ingredients Europe",
+    "Biofach",
+    "Internorga",
+    "IFFA",
+    "SIAL",
+    "Gulfood"
+  ],
+
+  "dauerthemen": [
+    "EU-Verpackungsverordnung PPWR",
+    "EU-Entwaldungsverordnung EUDR",
+    "Ethylenoxid in Gewürzen",
+    "Pyrrolizidinalkaloide",
+    "Salmonellen und Rückrufe bei Gewürzen",
+    "Bestrahlung von Gewürzen",
+    "Mykotoxine",
+    "Herkunftskennzeichnung",
+    "Verfälschung und Echtheitsprüfung",
+    "Salzreduktion und Clean Label",
+    "Energie- und Lohnkosten in der Lebensmittelproduktion"
+  ],
+
+  "rohstoffe_im_blick": [
+    "Pfeffer",
+    "Paprika",
+    "Chili",
+    "Kurkuma",
+    "Zimt",
+    "Kreuzkümmel",
+    "Koriander",
+    "Vanille",
+    "Kardamom",
+    "Muskat",
+    "Knoblauch",
+    "Zwiebel",
+    "Senfsaat",
+    "Oregano",
+    "Rosmarin"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gewuerze",
+  "name": "Gewürz-Radar",
+  "categories": ["markt", "regularien", "rohstoff", "produkt"],
+  "category_labels": {
+    "markt": "Markt",
+    "regularien": "Recht",
+    "rohstoff": "Rohstoff",
+    "produkt": "Produkt"
+  },
+  "relevance": [
+    { "id": "folgen", "from": "why_it_matters_business", "label": "Was es für uns heißt" },
+    { "id": "chance", "from": "product_idea", "label": "Produktidee" }
+  ],
+  "quick_label": "Signale"
+}
