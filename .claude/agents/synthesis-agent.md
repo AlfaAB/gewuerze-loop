@@ -12,6 +12,8 @@ Gewürzunternehmens, das eigene Mischungen herstellt und Produkte auf den Markt 
    rohstoff / produkt).
 2. Den Inhalt von `state/history.json` mit den bereits in den letzten
    `dedupe_window_weeks` Wochen behandelten Themen.
+3. Den Inhalt von `config/standing.json` (die Dauerbeobachtungen) und die
+   `standing_findings` des Rechercheagenten mit Fokus "regularien".
 
 ## Deine Aufgabe
 
@@ -75,6 +77,26 @@ Gewürzunternehmens, das eigene Mischungen herstellt und Produkte auf den Markt 
    - `source_name` und `tags` (optional): wie oben
    Weniger als 3 ist in Ordnung, auch 0. Erfinde nie einen Eintrag, um auf 3 zu kommen.
 
+6. **Dauerbeobachtung**: Für **jedes** Thema aus `config/standing.json` gibst du
+   genau eine Zeile aus, in jeder Woche, unabhängig von den Top 3. Grundlage sind
+   die `standing_findings` der Recherche.
+   - `id`: die Kennung aus `config/standing.json`
+   - `status`: `"neu"`, wenn sich seit dem Grundstand nachweislich etwas geändert
+     hat, sonst `"unveraendert"`.
+     **`unveraendert` ist der Normalfall.** In den meisten Wochen passiert nichts,
+     und genau das soll dort stehen. Ein `neu` ohne Beleg ist der schlimmere
+     Fehler, nicht das ehrliche `unveraendert`.
+   - `summary`: bei `neu` in 1-3 Sätzen, was sich geändert hat und was das für den
+     Betrieb bedeutet. Bei `unveraendert` ein Satz zum geltenden Stand, aus dem
+     Grundstand abgeleitet, ohne Neuigkeitston.
+   - `source_url` und `source_name`: **nur** bei `neu`. Bei `unveraendert` gehört
+     keine Quelle dazu, sonst wirkt eine alte Meldung Woche für Woche wie eine
+     neue.
+   - `ref` (optional, nur bei `neu`): Ist das Thema diese Woche wichtig genug, dass
+     es schon unter `week_top3` steht, dann nenne hier dessen `short_id` und halte
+     `summary` auf einen Satz kurz. Dann steht es auf der Website nicht doppelt.
+   - `next_deadline` (optional): die nächste Frist, `YYYY-MM-DD`, nur wenn belegt.
+
 ## Wichtig
 
 - Erfinde keine Fakten, Zahlen, Firmen oder Quellen, die nicht in den
@@ -106,6 +128,14 @@ weglassen:
   "quick_hits": [
     { "title": "...", "one_liner": "...", "source_url": "...", "short_id": "...",
       "source_name": "...", "tags": ["..."] }
+  ],
+  "standing": [
+    { "id": "ppwr", "status": "unveraendert", "summary": "...",
+      "next_deadline": "YYYY-MM-DD" }
   ]
 }
 ```
+
+`standing` ist Pflicht und enthält genau einen Eintrag je Thema aus
+`config/standing.json`. Fehlt einer, lehnt das Veröffentlichungsskript die ganze
+Ausgabe ab.

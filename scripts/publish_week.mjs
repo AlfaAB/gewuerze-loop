@@ -40,6 +40,7 @@ const dataDir = join(root, 'data');
 const weeksDir = join(dataDir, 'weeks');
 const historyFile = join(root, 'state', 'history.json');
 const topicFile = join(root, 'config', 'topic.json');
+const standingFile = join(root, 'config', 'standing.json');
 
 /* --- Hilfen -------------------------------------------------------------- */
 
@@ -110,6 +111,18 @@ need(
 );
 if (errors.length) fail();
 
+/* Dauerbeobachtung: Themen, die in JEDER Ausgabe eine Zeile bekommen, auch
+   wenn nichts passiert ist. Fehlt die Datei, gibt es keine. */
+const STANDING = existsSync(standingFile)
+  ? (await readJson(standingFile, 'config/standing.json')) || []
+  : [];
+need(Array.isArray(STANDING), 'config/standing.json muss eine Liste sein');
+need(
+  STANDING.every((t) => t && isSlug(t.id) && isText(t.label)),
+  'config/standing.json: jedes Dauerthema braucht id (Slug) und label'
+);
+if (errors.length) fail();
+
 /* --- Übersetzen ---------------------------------------------------------- */
 
 function mapItem(raw, i) {
@@ -172,6 +185,48 @@ function mapQuick(raw, i) {
   const tags = tagsOf(raw);
   if (tags) quick.tags = tags;
   return quick;
+}
+
+/* Eine Zeile der Dauerbeobachtung. Anders als ein Thema darf sie leer von
+   Neuigkeiten sein: "unveraendert" ist der Normalfall und kein Mangel. Dann
+   steht dort der aktuelle Stand, keine Quelle - sonst wird eine alte Meldung
+   Woche für Woche als neu getarnt. */
+function mapStanding(raw, i, topic) {
+  const p = `standing[${i}] (${topic.id})`;
+  if (!raw || typeof raw !== 'object') {
+    errors.push(`${p} ist kein Objekt`);
+    return null;
+  }
+  const status = raw.status;
+  need(
+    status === 'neu' || status === 'unveraendert',
+    `${p}.status muss neu oder unveraendert sein`
+  );
+  need(isText(raw.summary), `${p}.summary fehlt`);
+  if (status === 'neu') {
+    need(
+      isUrl(raw.source_url) || isSlug(raw.ref),
+      `${p}: bei status neu braucht es source_url oder ref (short_id eines Themas dieser Woche)`
+    );
+  }
+  if (status === 'unveraendert' && raw.source_url) {
+    errors.push(`${p}: bei status unveraendert gehört keine Quelle dazu`);
+  }
+  if (raw.next_deadline != null && raw.next_deadline !== '') {
+    need(isDate(raw.next_deadline), `${p}.next_deadline muss YYYY-MM-DD sein`);
+  }
+  if (errors.length) return null;
+
+  const out = {
+    id: topic.id,
+    label: topic.label,
+    status,
+    summary: raw.summary.trim()
+  };
+  if (isUrl(raw.source_url)) out.source = source(raw.source_url, raw.source_name);
+  if (isSlug(raw.ref)) out.ref = raw.ref;
+  if (isDate(raw.next_deadline)) out.next_deadline = raw.next_deadline;
+  return out;
 }
 
 /* Themen, die in dieser Woche schon verschickt wurden (laut History), aber
@@ -271,6 +326,33 @@ const dupes = ids.filter((id, i) => ids.indexOf(id) !== i);
 need(!dupes.length, 'short_id doppelt vergeben: ' + [...new Set(dupes)].join(', '));
 if (errors.length) fail();
 
+/* Dauerbeobachtung: je konfiguriertem Thema genau eine Zeile, in jeder
+   Ausgabe. Fehlt sie, ist das ein Fehler und keine Nachlässigkeit, die man
+   durchgehen lässt - sonst verschwindet das Thema still aus dem Blick. */
+const rawStanding = Array.isArray(input.standing) ? input.standing : [];
+const standing = STANDING.map((topic, i) => {
+  const raw = rawStanding.find((e) => e && e.id === topic.id);
+  if (!raw) {
+    errors.push(
+      `standing: Eintrag für "${topic.id}" fehlt. Jede Ausgabe braucht eine Zeile` +
+        ` je Dauerthema, im Normalfall mit status unveraendert.`
+    );
+    return null;
+  }
+  return mapStanding(raw, i, topic);
+});
+if (errors.length) fail();
+
+for (const entry of standing) {
+  if (entry.ref && !ids.includes(entry.ref)) {
+    errors.push(
+      `standing (${entry.id}).ref verweist auf "${entry.ref}", das in dieser Woche` +
+        ` nicht vorkommt`
+    );
+  }
+}
+if (errors.length) fail();
+
 const isoWeek = args.week;
 const weekFile = join(weeksDir, isoWeek + '.json');
 const existing = existsSync(weekFile) ? await readJson(weekFile, 'data/weeks/' + isoWeek + '.json') : null;
@@ -288,6 +370,7 @@ const week = {
   items,
   quick_hits: quick
 };
+if (standing.length) week.standing = standing;
 if (archiveOnly.length) week.archive_only = archiveOnly;
 
 const index = await buildIndex(week);
@@ -300,6 +383,9 @@ await writeFile(join(dataDir, 'index.json'), pretty(index), 'utf8');
 for (const w of warnings) console.warn('HINWEIS: ' + w);
 console.log(
   `OK: data/weeks/${isoWeek}.json (${items.length} Themen, ${quick.length} ${QUICK_LABEL}` +
+    (standing.length
+      ? `, Dauerbeobachtung: ${standing.map((e) => e.id + ' ' + e.status).join(', ')}`
+      : '') +
     (archiveOnly.length ? `, ${archiveOnly.length} ebenfalls verschickt` : '') +
     `), data/index.json (${index.weeks.length} Wochen)`
 );

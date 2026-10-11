@@ -51,6 +51,43 @@ Die mitgelieferte Liste ist ein **Vorschlag zum Überschreiben**. Streichen, was
 interessiert, ergänzen, was fehlt, besonders die eigenen Wettbewerber. Je genauer die
 Liste, desto brauchbarer die Ausgabe.
 
+## Die Dauerbeobachtung
+
+Manche Themen sollen **jede Woche** eine Aussage bekommen, auch wenn nichts passiert
+ist — bei PPWR etwa will man nicht raten, ob es diese Woche nichts Neues gab oder ob
+nur niemand nachgesehen hat. Dafür gibt es `config/standing.json`.
+
+Jedes Thema dort erscheint in jeder Ausgabe mit einem Status:
+
+| Status | Wann | Was dasteht |
+|---|---|---|
+| `unveraendert` | **der Normalfall** | der geltende Stand in einem Satz, **ohne Quelle** |
+| `neu` | belegte Änderung seit dem Grundstand | was sich geändert hat, mit Quelle |
+
+Die beiden Regeln, an denen das steht und fällt:
+
+1. **`unveraendert` ist kein Mangel.** Agenten und Prüfung sind ausdrücklich darauf
+   eingestellt; der Verification-Agent darf deswegen kein `revise` verlangen. Ein
+   garantierter Platz jede Woche lädt sonst dazu ein, ihn mit Dünnem zu füllen.
+2. **Bei `unveraendert` keine Quelle.** Sonst wird Woche für Woche dieselbe alte
+   Meldung als neu getarnt. `scripts/publish_week.mjs` lehnt das ab.
+
+Fehlt der Eintrag für ein Thema ganz, wird die **ganze Ausgabe** abgelehnt — sonst
+verschwindet das Thema still aus dem Blick, und genau das soll die Dauerbeobachtung ja
+verhindern.
+
+Die Website zählt aus dem Archiv, wie lange ein Thema schon unverändert ist, und
+schreibt „seit sechs Wochen unverändert". Das ist eine echte Information und macht
+zugleich sichtbar, wenn jemand anfängt, Bewegung zu erfinden.
+
+### Grundstand
+
+Ein Thema kann einen `grundstand` mit `stand_vom` tragen: den zuletzt festgehaltenen
+Sachstand. Die Recherche gleicht dagegen ab, statt jede Woche eine neue
+Gesamtdarstellung zu schreiben. Der Grundstand wird **nicht** von der Routine
+fortgeschrieben, sondern bewusst von Hand gepflegt — bei einem Compliance-Thema will
+man die Ausgangslage nicht geraten haben.
+
 ## Wie die Website an die Daten kommt
 
 Die Website liegt auf Antons eigenem Server und lädt ihre Daten beim Aufruf direkt aus
@@ -77,6 +114,7 @@ Damit das funktioniert, **muss dieses Repo öffentlich bleiben.**
 .claude/agents/verification-agent.md  Subagent: Qualitätsprüfung vor Versand
 config/topic.json                     Kategorien und Einordnungen des Themas
 config/watchlist.json                 Wer und was jede Woche abgeklopft wird
+config/standing.json                  Dauerbeobachtungen, z. B. PPWR
 scripts/publish_week.mjs              Schreibt die Website-Daten aus der Synthese
 ROUTINE_PROMPT.md                     Der Prompt fürs "Instructions"-Feld der Routine
 state/history.json                    Verlauf behandelter Themen (Dedupe)

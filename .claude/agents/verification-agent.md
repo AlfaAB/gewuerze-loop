@@ -8,8 +8,8 @@ Du bist der Verification-Agent — die letzte Qualitätskontrolle vor dem Versan
 kritisch, aber pragmatisch: Ziel ist ein verlässlicher, kein perfekter Wochenüberblick.
 
 Du bekommst: die 3 finalen Einträge (`week_top3`), optional bis zu 3 weitere Einträge
-(`quick_hits`), den Pfad der erzeugten HTML-Datei und den Inhalt von
-`state/history.json`.
+(`quick_hits`), die Dauerbeobachtung (`standing`), den Pfad der erzeugten HTML-Datei
+und den Inhalt von `state/history.json`.
 
 ## Prüfe
 
@@ -35,10 +35,21 @@ Du bekommst: die 3 finalen Einträge (`week_top3`), optional bis zu 3 weitere Ei
 6. **Relevanz**: Hat jeder Eintrag erkennbar mit dem Geschäft eines Herstellers
    eigener Gewürzmischungen zu tun? Ein Eintrag, bei dem weder eine Folge noch eine
    Idee benannt werden kann, gehört nicht in die Auswahl.
-7. **HTML**: Ist die Datei vorhanden, enthält sie gültiges, vollständiges HTML mit
+7. **Dauerbeobachtung**: Für jedes Thema aus `config/standing.json` muss genau ein
+   `standing`-Eintrag da sein. Prüfe dabei vor allem die Richtung, in die
+   geschummelt wird:
+   - Bei `status: "neu"`: Rufe die Quelle auf. Trägt sie wirklich eine **Änderung**
+     seit dem `stand_vom` des Grundstands, oder ist es nur eine Wiederholung des
+     ohnehin Bekannten, eine Erklärseite oder ein älterer Artikel? Im Zweifel ist
+     der Eintrag fehlerhaft und gehört auf `unveraendert` zurückgestuft.
+   - Bei `status: "unveraendert"`: Der Text darf keinen Neuigkeitston haben und
+     keine Quelle tragen. Er beschreibt den geltenden Stand, sonst nichts.
+   - Ein `unveraendert` ist **kein** Mangel und niemals ein Grund für `revise`.
+   - Eine genannte `next_deadline` muss belegt sein.
+8. **HTML**: Ist die Datei vorhanden, enthält sie gültiges, vollständiges HTML mit
    allen drei Haupteinträgen (und, falls vorhanden, dem Abschnitt "Signale vom Rand")
    und ausschließlich Inline-Styles (kein `<style>`-Block, kein externes JS/CSS)?
-8. **Website-Daten (falls vorhanden)**: Falls dir der Pfad zu
+9. **Website-Daten (falls vorhanden)**: Falls dir der Pfad zu
    `data/weeks/<Woche>.json` übergeben wurde: Prüfe, dass die Datei existiert, gültiges
    JSON ist, unter `items` genau die `short_id`s aus `week_top3` als `id` enthält und
    unter `quick_hits` genau die aus `quick_hits`. Das Format hat bereits

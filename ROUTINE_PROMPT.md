@@ -4,7 +4,7 @@ Kopiere den kompletten Text zwischen den Markierungen unten in das Prompt-/Instr
 Feld der Routine auf claude.ai/code/routines. Der Text ist bewusst vollständig und
 explizit gehalten, da die Routine jede Woche autonom (ohne Rückfragen) läuft.
 
-> **Stand: 2026-10-10.** Diese Datei muss mit dem Prompt in den Routine-Einstellungen
+> **Stand: 2026-10-11.** Diese Datei muss mit dem Prompt in den Routine-Einstellungen
 > übereinstimmen. Wird der Prompt dort geändert, bitte auch hier nachziehen, sonst
 > setzt ein späteres Zurückkopieren die Routine unbemerkt auf einen alten Stand zurück.
 
@@ -60,10 +60,16 @@ Verbände, Behörden, Messen und Dauerthemen zusätzlich zur freien Suche ab. Di
 Datei ist der Ort, an dem Anton die Ausrichtung steuert; ändere sie nicht von dir
 aus.
 
+Der Agent mit Fokus "regularien" liefert zusätzlich standing_findings: den
+Abgleich der Dauerbeobachtungen aus config/standing.json gegen ihren Grundstand.
+Das sind Themen, die in JEDER Ausgabe eine Zeile bekommen, auch wenn sich nichts
+getan hat.
+
 ## Schritt 2: Synthese
 
-Rufe den Subagenten synthesis-agent auf. Übergib ihm alle Kandidaten aus Schritt 1 und
-den Inhalt von state/history.json. Er liefert zwei Dinge zurück:
+Rufe den Subagenten synthesis-agent auf. Übergib ihm alle Kandidaten aus Schritt 1,
+den Inhalt von state/history.json, den Inhalt von config/standing.json und die
+standing_findings aus Schritt 1. Er liefert drei Dinge zurück:
 - week_top3: genau 3 final ausgewählte, aufbereitete Haupt-Einträge, dedupliziert
   gegen die History der letzten dedupe_window_weeks Wochen, priorisiert nach
   Handlungsrelevanz für den Betrieb. Jeder Eintrag trägt eine Einordnung
@@ -71,6 +77,10 @@ den Inhalt von state/history.json. Er liefert zwei Dinge zurück:
   machen könnte).
 - quick_hits: 0-3 kleinere Meldungen für die Rubrik "Signale vom Rand" (unabhängig
   von den Top 3, ebenfalls dedupliziert gegen die History).
+- standing: genau ein Eintrag je Thema aus config/standing.json, mit status "neu"
+  oder "unveraendert". Das ist Pflicht und unabhängig von der Nachrichtenlage:
+  "unveraendert" ist der Normalfall und ausdrücklich erwünscht, wenn nichts
+  passiert ist. Dränge den Agenten nicht zu einem "neu".
 
 Speichere seine JSON-Ausgabe unverändert in der Datei tmp/synthesis.json (Ordner bei
 Bedarf anlegen, vorhandene Datei überschreiben). Diese Datei ist nur ein
@@ -81,8 +91,8 @@ Zwischenstand für Schritt 4 und wird nicht committet.
 Prüfe, ob die Umgebungsvariable SITE_URL gesetzt ist (Adresse von Antons Website,
 endet mit /). Falls ja, bilde daraus die Web-Adresse dieser Ausgabe:
 <SITE_URL>#/woche/<YYYY-Www>. Rufe den Subagenten email-agent auf. Übergib ihm
-week_top3, quick_hits, die aktuelle Kalenderwoche, das Datum, und (falls vorhanden)
-SITE_URL sowie die daraus gebaute Web-Adresse. Er schreibt eine vollständige,
+week_top3, quick_hits, standing, die aktuelle Kalenderwoche, das Datum, und (falls
+vorhanden) SITE_URL sowie die daraus gebaute Web-Adresse. Er schreibt eine vollständige,
 inline-gestylte HTML-Datei nach email/output/<YYYY-Www>.html.
 
 ## Schritt 4: Wochendaten für die Website schreiben
@@ -105,7 +115,7 @@ schreibt data/weeks/<YYYY-Www>.json sowie data/index.json.
 
 ## Schritt 5: Qualitätsprüfung (max. 2 Revisionsrunden)
 
-Rufe den Subagenten verification-agent auf mit week_top3, quick_hits, dem Pfad der
+Rufe den Subagenten verification-agent auf mit week_top3, quick_hits, standing, dem Pfad der
 Email-HTML-Datei, dem Pfad data/weeks/<YYYY-Www>.json (falls Schritt 4 erfolgreich war)
 und state/history.json.
 
@@ -189,6 +199,8 @@ Auffälligkeiten aus der Qualitätsprüfung gab.
   Fehlermarkierung in Schritt 6 im Fehlerfall.
 - Schreibe Dateien unter data/ ausschließlich über scripts/publish_week.mjs und nur
   für die aktuelle Woche. Vergangene Wochen bleiben unangetastet.
-- Ändere config/watchlist.json und config/topic.json nicht. Beides steuert Anton.
+- Ändere config/watchlist.json, config/topic.json und config/standing.json nicht.
+  Alle drei steuert Anton. Insbesondere der grundstand einer Dauerbeobachtung wird
+  nicht von der Routine fortgeschrieben.
 
 --- PROMPT ENDE ---

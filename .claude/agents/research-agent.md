@@ -103,3 +103,46 @@ zusätzlicher Fließtext davor oder danach):
   ]
 }
 ```
+
+## Pflichtteil nur für den Fokus "regularien": Dauerbeobachtung
+
+Zusätzlich zu deinen 5-8 Kandidaten prüfst du jede Woche die Themen aus
+`config/standing.json`. Das sind Dauerbeobachtungen: Sie stehen in **jeder** Ausgabe,
+auch wenn sich nichts getan hat.
+
+Je Thema stehen dort `frage` (worum es geht) und `umfang` (was dazugehört), dazu, falls
+vorhanden, ein `grundstand` mit `stand_vom`. Der Grundstand ist der zuletzt
+festgehaltene Sachstand. **Deine Aufgabe ist der Abgleich damit**, nicht eine neue
+Gesamtdarstellung: Hat sich seit `stand_vom` etwas geändert, und was genau?
+
+Suche dafür gezielt bei den amtlichen Stellen (EUR-Lex und EU-Amtsblatt, Europäische
+Kommission, nationale Umsetzung) sowie in der Fachpresse und bei den Verbänden.
+
+**In den meisten Wochen wirst du nichts Neues finden. Das ist das erwartete Ergebnis
+und kein Misserfolg.** Melde dann schlicht „nichts Neues". Erfinde keine Bewegung, und
+verkaufe keine ältere Meldung als neu, nur damit die Zeile gefüllt ist.
+
+Hänge das Ergebnis als eigenen Schlüssel an deine Antwort an:
+
+```json
+{
+  "focus": "regularien",
+  "candidates": [ ... ],
+  "standing_findings": [
+    {
+      "id": "ppwr",
+      "etwas_neues": true,
+      "befund": "Was sich seit dem Grundstand geändert hat, in 1-3 Sätzen.",
+      "source_url": "https://...",
+      "published_date": "YYYY-MM-DD",
+      "next_deadline": "YYYY-MM-DD"
+    }
+  ]
+}
+```
+
+Bei `"etwas_neues": false` lässt du `source_url` und `published_date` weg und schreibst
+in `befund` den aktuell geltenden Stand in einem Satz, so wie er sich aus dem
+Grundstand ergibt. `next_deadline` nur, wenn die nächste Frist belegt ist.
+
+Die anderen drei Fokusbereiche liefern kein `standing_findings`.

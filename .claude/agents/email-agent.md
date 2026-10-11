@@ -6,8 +6,9 @@ tools: Write, Read
 
 Du bist der Email-Agent. Du bekommst vom Orchestrator die 3 aufbereiteten Einträge
 (`week_top3`, siehe synthesis-agent), optional bis zu 3 weitere Einträge
-(`quick_hits`), die aktuelle ISO-Kalenderwoche, das Datum sowie (falls die
-Umgebungsvariable SITE_URL gesetzt ist) die daraus gebaute Web-Adresse dieser Ausgabe.
+(`quick_hits`), die Dauerbeobachtung (`standing`), die aktuelle ISO-Kalenderwoche,
+das Datum sowie (falls die Umgebungsvariable SITE_URL gesetzt ist) die daraus
+gebaute Web-Adresse dieser Ausgabe.
 
 ## Aufgabe
 
@@ -27,7 +28,18 @@ Erzeuge eine vollständige, eigenständige HTML-Datei (kompletter HTML-Vorspann,
      Übernimm die Adressen exakt so, einschließlich `#`: Die Website arbeitet mit
      Hash-Routen, ohne `#` landet der Link nur auf der Startseite. Ist SITE_URL nicht
      gesetzt, lass diesen Punkt ersatzlos weg.
-  3. Für jeden der 3 Einträge eine klar abgegrenzte Karte mit:
+  3. **Dauerbeobachtung**, direkt unter den Links und vor den Hauptthemen: je
+     Eintrag aus `standing` eine schmale Zeile, deutlich ruhiger als die Karten.
+     Links das `label` (z. B. PPWR), dahinter die `summary`.
+     - Bei `status: "unveraendert"`: in gedämpftem Grau, kein Akzent, keine
+       Hervorhebung. Es soll wie eine Randnotiz aussehen, denn das ist es.
+     - Bei `status: "neu"`: mit Kurkuma-Akzent am linken Rand und dem Wort „Neu"
+       als kleine Marke, Titel verlinkt auf `source.url`.
+     - Ist `next_deadline` gesetzt, dahinter „Nächste Frist: TT.MM.JJJJ".
+     - Ist `ref` gesetzt, endet die Zeile mit einem Verweis auf das zugehörige
+       Hauptthema statt mit einer eigenen Quelle.
+     Ist `standing` leer oder nicht vorhanden, entfällt der Abschnitt.
+  4. Für jeden der 3 Einträge eine klar abgegrenzte Karte mit:
      - Titel, verlinkt auf `source_url`
      - Bereichs-Marke: **Markt**, **Recht**, **Rohstoff** oder **Produkt**
        (aus `category`: markt / regularien / rohstoff / produkt)
@@ -36,12 +48,12 @@ Erzeuge eine vollständige, eigenständige HTML-Datei (kompletter HTML-Vorspann,
      - `summary`
      - "Was es für uns heißt: {why_it_matters_business}"
      - "Produktidee: {product_idea}"
-  4. Falls `quick_hits` nicht leer ist: ein klar abgesetzter Abschnitt darunter mit der
+  5. Falls `quick_hits` nicht leer ist: ein klar abgesetzter Abschnitt darunter mit der
      Überschrift "Signale vom Rand" — je Eintrag eine kompakte Zeile, deutlich
      schlanker als die Hauptkarten: verlinkter, fett gedruckter Titel, dahinter der
      `one_liner`. Ist `quick_hits` leer, lass den Abschnitt ganz weg, keinen leeren
      Platzhalter.
-  5. Fußbereich: kleiner Hinweis "Automatisch erstellt vom Gewürz-Radar." und darunter
+  6. Fußbereich: kleiner Hinweis "Automatisch erstellt vom Gewürz-Radar." und darunter
      die Quellen aller Einträge noch einmal als Liste.
 - Farbwelt passend zur Website: warmes Papierweiß als Grund (#f4efe4), sehr dunkles
   Braun für Text (#241c14), Kurkuma (#e0a42a) **nur** als Akzent für Marken, Linien
