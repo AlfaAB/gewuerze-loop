@@ -3,6 +3,46 @@
     "id": "ppwr",
     "label": "PPWR",
     "frage": "Was ändert sich an der EU-Verpackungsverordnung, und was heißt das für unsere Verpackungen?",
-    "umfang": "Rechtsakte und Änderungen, Durchführungs- und delegierte Rechtsakte, Leitlinien und Auslegungshilfen, Fristen und Übergangsfristen, nationale Umsetzung in Deutschland, Streit über die Auslegung, Folgen für Kennzeichnung, Rezyklatanteile, Recyclingfähigkeit und Mehrweg"
+    "umfang": "Rechtsakte und Änderungen, Durchführungs- und delegierte Rechtsakte, Leitlinien und Auslegungshilfen, Fristen und Übergangsfristen, nationale Umsetzung in Deutschland, Streit über die Auslegung, Folgen für Kennzeichnung, Rezyklatanteile, Recyclingfähigkeit und Mehrweg",
+
+    "stand_vom": "2026-10-11",
+    "grundstand": {
+      "kurz": "Die PPWR (Verordnung (EU) 2025/40) gilt seit dem 12.08.2026 unmittelbar in allen Mitgliedstaaten; in Deutschland ist am selben Tag das VerpackDG in Kraft getreten, das das VerpackG ablöst. Die eigentliche Arbeit steckt in den Folgerechtsakten, von denen erst einer erlassen ist.",
+
+      "gilt_bereits": [
+        "Stoffanforderungen, darunter PFAS-Grenzwerte für Verpackungen mit Lebensmittelkontakt",
+        "Verpackungsminimierung (Leervolumen, überflüssige Umverpackung)",
+        "Konformitätserklärung des Erzeugers",
+        "Registrierung in der erweiterten Herstellerverantwortung",
+        "Regeln für Mehrweg und Nachfüllung samt Informationspflicht gegenüber Endkunden"
+      ],
+
+      "deutschland": "VerpackDG: Kabinettsbeschluss 11.02.2026, Bundestag 11.06.2026, Bundesrat 10.07.2026, Verkündung 17.07.2026, in Kraft seit 12.08.2026. LUCID bleibt vorerst als Register bestehen. Neu unter anderem: Zulassungspflicht für Hersteller nicht systembeteiligungspflichtiger Verpackungen und erweiterte Systembeteiligung auch für Primärproduktions- und Transportverpackungen. Bußgelder greifen ab 12.02.2027; eine Quelle nennt 10.000 bis 200.000 Euro, das ist noch nicht gegengeprüft.",
+
+      "rechtsakte": "Von 35 nötigen Folgevorschriften (18 Durchführungsrechtsakte, 17 delegierte Rechtsakte) ist bislang genau einer erlassen: Delegierter Beschluss (EU) 2026/429 vom 25.02.2026 zu Ausnahmen für Palettenumwicklung und Umreifungsbänder nach Artikel 29. Vier Entwürfe stehen in öffentlicher Konsultation, fünf Fristen der Kommission sind bereits verstrichen. Stand dieser Zählung: 26.08.2026.",
+
+      "naechste_fristen": [
+        { "datum": "2026-12-31", "was": "erwartet: Methodik für Rezyklatanteile und Nachhaltigkeitskriterien für Kunststoff-Recyclingtechnologien" },
+        { "datum": "2027-02-12", "was": "Mitgliedstaaten müssen Sanktionsvorschriften anwenden; in Deutschland greifen die Bußgelder" },
+        { "datum": "2027-02-28", "was": "erwartet: Mindestumläufe für Mehrwegverpackungen und Methodik zur Verpackungsminimierung" },
+        { "datum": "2028-01-01", "was": "erwartet: Design-for-Recycling-Kriterien und Recyclingfähigkeitsklassen A, B, C" },
+        { "datum": "2030-01-01", "was": "Mindestrezyklatanteile, Recyclingfähigkeitsanforderungen, Verbote bestimmter Formate, Mehrwegziele" }
+      ],
+
+      "offene_punkte": [
+        "Kennzeichnungspflicht: Der Durchführungsrechtsakt zu den harmonisierten Kennzeichen war bis 12.08.2026 fällig und ist überfällig; die Kommission plant die Annahme für das vierte Quartal 2026. Die Pflicht greift 24 Monate nach dessen Inkrafttreten. Zum Stichtag widersprechen sich die Quellen: teils 12.08.2028, teils 12.02.2028. Das ist beim nächsten Rechtsakt zu klären.",
+        "Die Bußgeldhöhen nach VerpackDG sind nur aus einer Sekundärquelle belegt."
+      ],
+
+      "fuer_uns": "Am unmittelbarsten wirken die PFAS-Grenzwerte für Lebensmittelkontakt, die Konformitätserklärung und die auf Primärproduktions- und Transportverpackungen ausgeweitete Systembeteiligung. Kennzeichnung und Rezyklatanteile sind Planungsthemen, aber noch keine Pflicht.",
+
+      "quellen": [
+        "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0040",
+        "https://www.bundesumweltministerium.de/gesetz/gesetz-zur-anpassung-des-verpackungsrechts-und-anderer-rechtsbereiche-an-die-verordnung-eu-2025-40",
+        "https://kpmg-law.de/neues-verpackungsdurchfuehrungsgesetz-verschaerft-pflichten-fuer-unternehmen/",
+        "https://www.stadler-verpackung.at/ppwr-umsetzungsstand",
+        "https://www.frankfurt-main.ihk.de/industrie-innovation-umwelt/energie-und-umwelt/information-und-services/abfallrecht/verpackungsgesetz/eu-verpackungsverordnung-ppwr-7103036"
+      ]
+    }
   }
 ]
