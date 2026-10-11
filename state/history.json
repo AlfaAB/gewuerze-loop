@@ -1,5 +1,44 @@
 {
   "dedupe_window_weeks": 8,
   "max_history_entries": 30,
-  "entries": []
+  "entries": [
+    {
+      "iso_week": "2026-W41",
+      "sent_date": "2026-10-11",
+      "items": [
+        {
+          "title": "Violas' in der Insolvenz: Hamburger Gewürzkette sucht Investor",
+          "short_id": "violas-insolvenz-2026",
+          "source_url": "https://ms-aktuell.de/welt/violas-insolvenz-gewuerze-06-10-2026/"
+        },
+        {
+          "title": "McCormick Q3: Kosteninflation steigt auf 6 bis 7 Prozent, Engpass bei Verpackung",
+          "short_id": "mccormick-q3-2026",
+          "source_url": "https://www.mitrade.com/insights/news/live-news/article-0-2136994-20261005"
+        },
+        {
+          "title": "Datassential Trends 2027: Doubanjiang, Buldak und Chili Crisp",
+          "short_id": "datassential-trends-2027",
+          "source_url": "https://theshelbyreport.com/2026/10/10/datassential-predicts-2027-food-flavor-and-beverage-trends/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Kreuzkümmel: Rally an der NCDEX",
+          "short_id": "jeera-ncdex-rally-okt-2026",
+          "source_url": "https://commodity-board.com/jeera-rally-accelerates-ncdex-futures-pull-global-cumin-prices-higher"
+        },
+        {
+          "title": "Watkins übernimmt Gewürzgeschäft von Sauer Brands",
+          "short_id": "watkins-sauer-uebernahme",
+          "source_url": "https://finance.yahoo.com/small-business/articles/watkins-completes-acquisition-sauer-brands-133000378.html"
+        },
+        {
+          "title": "SIAL Paris 2026: Innovationen setzen auf kräftige Aromen",
+          "short_id": "sial-innovation-2026",
+          "source_url": "https://www.sialparis.com/en/trends/News/SIAL-Innovation-entries-reflect-the-food-trends-shaping-2026"
+        }
+      ]
+    }
+  ]
 }

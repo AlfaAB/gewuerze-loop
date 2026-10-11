@@ -1,5 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-10T18:42:38.761Z",
-  "weeks": []
+  "generated_at": "2026-10-11T13:41:33.875Z",
+  "weeks": [
+    {
+      "iso_week": "2026-W41",
+      "year": 2026,
+      "week": 41,
+      "sent_date": "2026-10-11",
+      "lead": "Violas' in der Insolvenz: Hamburger Gewürzkette sucht Investor",
+      "item_count": 3,
+      "quick_hit_count": 3
+    }
+  ]
 }
