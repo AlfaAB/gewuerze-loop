@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W42",
+  "year": 2026,
+  "week": 42,
+  "sent_date": "2026-10-14",
+  "lead": "Plastiksteuer geplant: 550 Euro je Tonne auf Kunststoffverpackungen ab Juli 2027",
+  "items": [
+    {
+      "id": "plastiksteuer-de-2027",
+      "category": "regularien",
+      "title": "Plastiksteuer geplant: 550 Euro je Tonne auf Kunststoffverpackungen ab Juli 2027",
+      "summary": "Die Koalitionsfraktionen planen eine Verbrauchsteuer von 550 Euro je Tonne auf Kunststoffverpackungen, Folien, Verschlüsse und Verbundverpackungen mit mehr als 5 Prozent Kunststoffanteil. Gelten soll sie ab Juli 2027. Rezyklat soll auf Antrag befreit werden. Laut HDE und BVE soll die Steuer per Änderungsantrag in das Haushaltsbegleitgesetz 2027 kommen, ohne dass das Kabinett sich damit befasst hat. Der HDE lehnt das Vorhaben ab (07.10.), die BVE und sieben weitere Verbände haben am 02.10. ein Eilschreiben an das Kanzleramt geschickt. Wer die Steuer schuldet, ist laut BVE offen, und ein Beschluss des Haushaltsausschusses ist bisher nicht bekannt.",
+      "relevance": {
+        "folgen": "Folienbeutel, Verbundbeutel, Kunststoffstreuer und Verschlüsse sind der Kern unserer Abfüllung. Wird die Steuer beschlossen, steigen die Stückkosten in B2C und B2B, je nachdem, ob am Ende Verpackungshersteller oder Abfüller zahlen. Jetzt sollten wir den Kunststoffanteil und das Gewicht je Verpackungsformat zusammenstellen und bei den Lieferanten fragen, ob es Rezyklatvarianten gibt.",
+        "chance": "Nachfüllbeutel mit weniger Kunststoff oder Papier- und Glaslösungen für Dauersortimente wären einen Kostenvergleich wert. Kommt die Steuer, lassen sie sich im Handel auch als Antwort darauf vermarkten."
+      },
+      "source": {
+        "url": "https://www.ernaehrungsindustrie.de/plastiksteuer-verbaendeallianz-fordert-stopp-des-eilverfahrens/",
+        "name": "BVE"
+      },
+      "tags": [
+        "plastiksteuer",
+        "verpackung",
+        "haushaltsbegleitgesetz",
+        "deutschland"
+      ]
+    },
+    {
+      "id": "pfhxa-papier-lebensmittelkontakt-2026",
+      "category": "regularien",
+      "title": "PFHxA-Verbot: Seit 10. Oktober gelten Grenzwerte für Papier und Pappe mit Lebensmittelkontakt",
+      "summary": "Seit dem 10.10.2026 gilt die REACH-Beschränkung nach Verordnung (EU) 2024/2462 (Anhang XVII, Eintrag 79). Papier und Pappe mit Lebensmittelkontakt dürfen danach nicht mehr in Verkehr gebracht werden, wenn sie PFHxA und deren Salze ab 25 ppb oder verwandte Stoffe ab 1000 ppb enthalten. Die Beschränkung gilt ab demselben Tag auch für Verbrauchergemische, Kosmetik, Kleidung und Schuhe. Die Grenzwerte stammen aus einer Zusammenfassung von UL.",
+      "relevance": {
+        "folgen": "Papierbeutel, Faltschachteln und fettdichte Papiere für Gewürze und Würzpasten müssen diese Grenzwerte jetzt einhalten. Wir sollten die Konformitätsnachweise der Verpackungslieferanten einholen und Restbestände an älterem Packmaterial prüfen. Das schließt an die PFAS-Grenzwerte der PPWR an, die bereits gelten.",
+        "chance": "Keine direkte Produktidee."
+      },
+      "source": {
+        "url": "https://www.ul.com/news/pfhxa-and-related-substances-commission-regulation-eu-20242462",
+        "name": "UL"
+      },
+      "tags": [
+        "pfas",
+        "pfhxa",
+        "reach",
+        "verpackung"
+      ],
+      "deadline": "2026-10-10"
+    },
+    {
+      "id": "kardamom-kerala-3100-okt-2026",
+      "category": "rohstoff",
+      "title": "Kardamom: Auktionspreise in Kerala über 3.100 Rupien je Kilo",
+      "summary": "Laut Spices Board India lagen die Auktionen für Kleinkardamom vom 8. bis 13.10.2026 im Durchschnitt bei 3.121 bis 3.269 Rupien je Kilo. In der Spitze wurden bis zu 4.393 Rupien erzielt, je Auktion wurden 37 bis 146 Tonnen gehandelt. Whalesbook spricht ohne Quellenangabe von einem Rekord bei 3.200 Rupien je Kilo. Als Gründe nennt das Portal die Nachfrage zu den Festtagen, Fehlmengen aus Guatemala und höhere Frachtkosten durch die Spannungen in Westasien.",
+      "relevance": {
+        "folgen": "Kardamom steckt in Lebkuchen-, Chai-, Curry- und Garam-Masala-Mischungen. Bei Nachkäufen und in den Kalkulationen für 2027 sollten wir mit höheren Einstandspreisen rechnen. Wo Kontrakte nicht gedeckt sind, lohnt sich jetzt ein Blick auf die Deckung und auf andere Ursprünge.",
+        "chance": "Keine direkte Produktidee."
+      },
+      "source": {
+        "url": "https://www.indianspices.com/marketing/price/domestic/daily-price-small.html",
+        "name": "Spices Board India"
+      },
+      "tags": [
+        "kardamom",
+        "indien",
+        "guatemala",
+        "preise"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "vion-verkauf-standorte-2026",
+      "title": "Vion verkauft deutsche Standorte einzeln",
+      "summary": "Nach 61,2 Mio. Euro Nettoverlust 2025 gehen Buchloe an ABP, Crailsheim an Boeser Frischfleisch, der Food-Service an Group of Butchers und Waldkraiburg an OSI. Bei wichtigen Abnehmern von Fleischgewürzen wechseln damit die Eigentümer, und das kann Lieferantenbeziehungen neu öffnen.",
+      "source": {
+        "url": "https://lebensmittelpraxis.de/industrie-aktuell/50027-fleischindustrie-vion-schreibt-verlust-und-verkauft-deutsche-standorte-einzeln.html",
+        "name": "Lebensmittel Praxis"
+      },
+      "tags": [
+        "vion",
+        "fleischindustrie",
+        "b2b"
+      ]
+    },
+    {
+      "id": "drewry-wci-suez-okt-2026",
+      "title": "Fracht Asien-Europa: Raten sinken, Rückkehr in den Suezkanal",
+      "summary": "Der Drewry WCI stand am 8.10. bei 4.351 USD je 40-Fuß-Container, Shanghai-Rotterdam bei 3.337 USD (-2 %). Laut gCaptain soll das erste Schiff der Premier Alliance am 9.11. den Suezkanal passieren. Die Reedereien wollen Ende Oktober höhere FAK-Raten durchsetzen.",
+      "source": {
+        "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+        "name": "Drewry"
+      },
+      "tags": [
+        "fracht",
+        "suezkanal",
+        "container"
+      ]
+    },
+    {
+      "id": "timut-pfeffer-salmonellen-2026",
+      "title": "Salmonellen in Timut-Pfeffer: Rückrufe in Deutschland und Island",
+      "summary": "Nach dem bundesweiten Rückruf von Peugeot Saveurs (01.10., MHD 05.05.2030) ruft auch Island Timur-Pfeffer aus Nepal mit demselben MHD zurück. Ein Zusammenhang ist nicht belegt, trotzdem ist das ein Anlass, Wareneingangsprüfungen bei Zanthoxylum zu überprüfen.",
+      "source": {
+        "url": "https://dailynorthern.com/34780/iceland-recalls-timur-berry-spice-after-salmonella-is-found",
+        "name": "Daily Northern"
+      },
+      "tags": [
+        "timut",
+        "salmonellen",
+        "rueckruf",
+        "nepal"
+      ]
+    }
+  ],
+  "standing": [
+    {
+      "id": "ppwr",
+      "label": "PPWR",
+      "status": "unveraendert",
+      "summary": "Die PPWR gilt seit dem 12.08.2026 zusammen mit dem VerpackDG. Von den Folgerechtsakten ist nur der Delegierte Beschluss (EU) 2026/429 erlassen, und der Durchführungsrechtsakt zur harmonisierten Kennzeichnung steht noch aus.",
+      "next_deadline": "2026-12-31"
+    }
+  ]
+}

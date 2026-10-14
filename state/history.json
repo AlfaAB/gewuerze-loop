@@ -39,6 +39,44 @@
           "source_url": "https://www.sialparis.com/en/trends/News/SIAL-Innovation-entries-reflect-the-food-trends-shaping-2026"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W42",
+      "sent_date": "2026-10-14",
+      "items": [
+        {
+          "title": "Plastiksteuer geplant: 550 Euro je Tonne auf Kunststoffverpackungen ab Juli 2027",
+          "short_id": "plastiksteuer-de-2027",
+          "source_url": "https://www.ernaehrungsindustrie.de/plastiksteuer-verbaendeallianz-fordert-stopp-des-eilverfahrens/"
+        },
+        {
+          "title": "PFHxA-Verbot: Seit 10. Oktober gelten Grenzwerte für Papier und Pappe mit Lebensmittelkontakt",
+          "short_id": "pfhxa-papier-lebensmittelkontakt-2026",
+          "source_url": "https://www.ul.com/news/pfhxa-and-related-substances-commission-regulation-eu-20242462"
+        },
+        {
+          "title": "Kardamom: Auktionspreise in Kerala über 3.100 Rupien je Kilo",
+          "short_id": "kardamom-kerala-3100-okt-2026",
+          "source_url": "https://www.indianspices.com/marketing/price/domestic/daily-price-small.html"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Vion verkauft deutsche Standorte einzeln",
+          "short_id": "vion-verkauf-standorte-2026",
+          "source_url": "https://lebensmittelpraxis.de/industrie-aktuell/50027-fleischindustrie-vion-schreibt-verlust-und-verkauft-deutsche-standorte-einzeln.html"
+        },
+        {
+          "title": "Fracht Asien-Europa: Raten sinken, Rückkehr in den Suezkanal",
+          "short_id": "drewry-wci-suez-okt-2026",
+          "source_url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+        },
+        {
+          "title": "Salmonellen in Timut-Pfeffer: Rückrufe in Deutschland und Island",
+          "short_id": "timut-pfeffer-salmonellen-2026",
+          "source_url": "https://dailynorthern.com/34780/iceland-recalls-timur-berry-spice-after-salmonella-is-found"
+        }
+      ]
     }
   ]
 }
