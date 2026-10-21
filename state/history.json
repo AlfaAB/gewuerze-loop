@@ -77,6 +77,44 @@
           "source_url": "https://dailynorthern.com/34780/iceland-recalls-timur-berry-spice-after-salmonella-is-found"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W43",
+      "sent_date": "2026-10-21",
+      "items": [
+        {
+          "title": "EU-Öko-Verordnung: Trilog verlängert Anerkennung von Drittländern um zehn Jahre",
+          "short_id": "oeko-vo-drittlaender-trilog-2026",
+          "source_url": "https://netz.bio/2026/10/20/boelw-bruessel-staerkt-bio/"
+        },
+        {
+          "title": "Knoblauch: China-Ernte rund 30 Prozent kleiner, Preise fest",
+          "short_id": "knoblauch-china-ernte-okt-2026",
+          "source_url": "https://commodity-board.com/tighter-global-garlic-supply-keeps-prices-firm-as-argentina-eyes-a-wet-harvest"
+        },
+        {
+          "title": "Salmonellen in zugekauften Wildkräutern: zwei Nudelhersteller rufen zurück",
+          "short_id": "wildkraeuter-salmonellen-rueckruf-2026",
+          "source_url": "https://www.produktwarnung.eu/2026/10/16/rueckruf-salmonellen-dinkelhof-ruft-dinkel-sombrelli-mit-wildkraeutern-zurueck/39146"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Sudanfarbstoffe in gemahlenem Sumach",
+          "short_id": "sumach-sudan-rueckruf-2026",
+          "source_url": "https://www.produktwarnung.eu/2026/10/20/rueckruf-gesundheitsrisiko-nicht-zugelassene-farbstoffe-in-gemahlenem-sumach/39188"
+        },
+        {
+          "title": "Fracht Asien-Nordeuropa: Spotraten steigen wieder",
+          "short_id": "freightos-fracht-anstieg-okt-2026",
+          "source_url": "https://www.freightos.com/freight-resources/red-sea-container-traffic-set-for-full-return-in-q1-october-20-2026-update/"
+        },
+        {
+          "title": "Erzeugerpreise September: Energie +14,9 %, Nahrungsmittel -4,1 %",
+          "short_id": "destatis-erzeugerpreise-sep-2026",
+          "source_url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_373_61241.html"
+        }
+      ]
     }
   ]
 }

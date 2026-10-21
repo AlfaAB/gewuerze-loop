@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T07:23:38.168Z",
+  "generated_at": "2026-10-21T07:27:22.419Z",
   "weeks": [
+    {
+      "iso_week": "2026-W43",
+      "year": 2026,
+      "week": 43,
+      "sent_date": "2026-10-21",
+      "lead": "EU-Öko-Verordnung: Trilog verlängert Anerkennung von Drittländern um zehn Jahre",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W42",
       "year": 2026,
