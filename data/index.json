@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T07:27:22.419Z",
+  "generated_at": "2026-10-28T07:18:15.909Z",
   "weeks": [
+    {
+      "iso_week": "2026-W44",
+      "year": 2026,
+      "week": 44,
+      "sent_date": "2026-10-28",
+      "lead": "Vietnam: Pfefferexporte steigen um 15 Prozent, Ernte 2027 durch anhaltenden Regen gefährdet",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W43",
       "year": 2026,

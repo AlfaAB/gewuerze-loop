@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W44",
+  "year": 2026,
+  "week": 44,
+  "sent_date": "2026-10-28",
+  "lead": "Vietnam: Pfefferexporte steigen um 15 Prozent, Ernte 2027 durch anhaltenden Regen gefährdet",
+  "items": [
+    {
+      "id": "pfeffer-vietnam-export-ernte-2027",
+      "category": "rohstoff",
+      "title": "Vietnam: Pfefferexporte steigen um 15 Prozent, Ernte 2027 durch anhaltenden Regen gefährdet",
+      "summary": "Die Vietnam Pepper and Spice Association (VPSA) meldet: Vietnam hat von Januar bis September 2026 215.733 t Pfeffer im Wert von über 1,39 Mrd. USD exportiert. Das sind 15,4 % mehr Menge und 10,2 % mehr Wert als im Vorjahr. Der durchschnittliche Exportpreis für schwarzen Pfeffer lag im dritten Quartal bei 6.205 USD/t, 3,2 % niedriger als im Vorjahr. Die Ernte 2026 fiel kleiner aus als 2025, die Lager sind knapp. Anhaltender Regen im September und Anfang Oktober hat den Fruchtansatz für 2027 beeinträchtigt, außerdem droht El Niño. Eine Mengenschätzung will die VPSA erst nach einer Erhebung Anfang Dezember vorlegen.",
+      "relevance": {
+        "folgen": "Pfeffer ist nach Menge unser wichtigster Mischungsrohstoff. Kurzfristig sind die Preise stabil, für 2027 steigt aber das Angebotsrisiko. Es lohnt sich, die Deckung für das erste Halbjahr 2027 jetzt zu prüfen und die VPSA-Erhebung im Dezember abzuwarten, bevor wir längere Kontrakte abschließen.",
+        "chance": "Keine direkte Produktidee. Falls Pfeffer teurer wird, lohnt es sich vorsorglich zu prüfen, wo wir in Pfeffer-lastigen Mischungen anteilig auf Herkünfte wie Brasilien ausweichen können."
+      },
+      "source": {
+        "url": "https://dtinews.dantri.com.vn/vietnam-today/vietnams-pepper-exports-earn-usd-139-billion-in-nine-months-20261023203550715.htm",
+        "name": "Dtinews / VPSA"
+      },
+      "tags": [
+        "pfeffer",
+        "vietnam",
+        "ernte",
+        "export"
+      ]
+    },
+    {
+      "id": "eu-fleischnamen-verbot-wuerzmittel-2026",
+      "category": "regularien",
+      "title": "EU-Verbot fleischbezogener Namen: Auch Würzmittel könnten betroffen sein",
+      "summary": "Im März 2026 haben sich die EU-Institutionen im Trilog darauf geeinigt, 31 fleischbezogene Begriffe wie 'chicken', 'bacon' und 'steak' für fleischfreie Produkte zu verbieten. Die European Snacks Association warnt, dass damit auch Geschmacksbezeichnungen wie Brathähnchen- oder Räucherspeck-Chips erfasst sein könnten. Stefan Köhler und drei weitere EVP-Abgeordnete haben einen Änderungsantrag eingebracht: Geschmacksbezeichnungen in Kategorien ohne Fleisch sollen ausgenommen werden, ausdrücklich auch Snacks, Saucen, Würzmittel und Condiments. Über den Antrag ist noch nicht entschieden.",
+      "relevance": {
+        "folgen": "Fleischfreie Würzer und Snack-Seasonings mit Namen wie 'Hähnchen' oder 'Bacon' müssten im schlimmsten Fall umbenannt und neu etikettiert werden, im Handel ebenso wie bei Industriekunden. Eine Frist gibt es noch nicht. Sinnvoll ist schon jetzt eine Liste der betroffenen Artikelnamen, damit wir schnell reagieren können, wenn die Ausnahme scheitert.",
+        "chance": "Bei neuen Mischungen besser von Anfang an Namen wählen, die die Zubereitung oder das Aroma beschreiben ('Grillhähnchen-Gewürz' wird zu 'Rotisserie-Würzung', 'Bacon' zu 'rauchig-salzig'). Dann fällt später keine Umbenennung an."
+      },
+      "source": {
+        "url": "https://www.foodnavigator.com/Article/2026/10/27/eu-meaty-names-ban-may-include-crisps/",
+        "name": "FoodNavigator"
+      },
+      "tags": [
+        "kennzeichnung",
+        "fleischbezeichnungen",
+        "eu",
+        "snackwuerzung"
+      ]
+    },
+    {
+      "id": "lebensbaum-bohnenkraut-pa-rueckruf-2026",
+      "category": "regularien",
+      "title": "Lebensbaum ruft Bohnenkraut wegen Pyrrolizidinalkaloiden zurück",
+      "summary": "Die Ulrich Walter GmbH (Marke Lebensbaum) ruft drei Chargen 'Bohnenkraut, gerebelt und getrocknet, 25 g' zurück (103150, 104062, 104731). Grund sind nachgewiesene Pyrrolizidinalkaloide und ihre N-Oxide. Die Erstmeldung erschien am 16.10.2026, inzwischen sind 15 Bundesländer betroffen. Zuletzt wurde die Meldung am 26.10. aktualisiert, dabei kam nur die EAN hinzu.",
+      "relevance": {
+        "folgen": "Bohnenkraut steckt in vielen Kräutermischungen, und Pyrrolizidinalkaloide in getrockneten Kräutern sind ein Dauerrisiko. Den eigenen Bohnenkraut-Einkauf sollten wir jetzt gegen die Analysezertifikate der Lieferanten prüfen und für die laufenden Chargen gegebenenfalls eine eigene Analyse auf Pyrrolizidinalkaloide beauftragen. Dass ein Wettbewerber zurückruft, kann außerdem kurzfristig Anfragen von Händlern auslösen.",
+        "chance": "Keine direkte Produktidee. Für Gespräche mit Händlern und Gastronomie kann eine dokumentierte Prüfung auf Pyrrolizidinalkaloide bei Kräutermischungen als Qualitätsargument dienen."
+      },
+      "source": {
+        "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261016_17_NI_Bohnenkraut,_gerebelt_und_getrocknet,_25_Gramm/261016_17_NI_Bohnenkraut,_gerebelt_und_getrocknet,_25_Gramm.html",
+        "name": "lebensmittelwarnung.de"
+      },
+      "tags": [
+        "bohnenkraut",
+        "pyrrolizidinalkaloide",
+        "rueckruf",
+        "lebensbaum"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "sumach-abido-chlorpyrifos-rueckruf-2026",
+      "title": "Zweiter Sumach-Rückruf: Chlorpyrifos und E 122 in Abido Sumak",
+      "summary": "Seit dem 26.10. wird 'Abido Sumak, 50 g' zurückgerufen (Großhändler Orient Gate GmbH, inzwischen 13 Bundesländer), weil das Insektizid Chlorpyrifos und der in diesem Produkt nicht zugelassene Farbstoff E 122 gefunden wurden. Nach dem Ikleel-Algabal-Fall ist das der zweite Sumach-Rückruf innerhalb kurzer Zeit; Sumach für Za'atar und Orientmischungen sollten wir genauer prüfen.",
+      "source": {
+        "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261026_24_SH_Sumak/261026_24_SH_Sumak.html",
+        "name": "lebensmittelwarnung.de"
+      },
+      "tags": [
+        "sumach",
+        "chlorpyrifos",
+        "e122",
+        "rueckruf"
+      ]
+    },
+    {
+      "id": "efsa-capsaicin-raeucher-gutachten-2026",
+      "title": "EFSA berät Gutachten zu Capsaicin und geräucherten Lebensmitteln",
+      "summary": "Das CONTAM-Gremium der EFSA hatte auf seiner Sitzung vom 20. bis 22.10. Gutachtenentwürfe zu Gesundheitsrisiken durch Capsaicin und zur Sicherheit konventionell geräucherter Lebensmittel auf der Tagesordnung. Das Ergebnis ist noch offen. Daraus können später Vorgaben für Chili, Cayenne, scharfe Mischungen und Rauchpaprika folgen.",
+      "source": {
+        "url": "https://www.efsa.europa.eu/sites/default/files/2026-10/contam_draft_agenda_163_plenary_20-22_october_2026.pdf",
+        "name": "EFSA"
+      },
+      "tags": [
+        "capsaicin",
+        "chili",
+        "rauchpaprika",
+        "efsa"
+      ]
+    },
+    {
+      "id": "kerry-q3-gewuerzkosten-2027",
+      "title": "Kerry erwartet für 2027 höhere Kosten bei Gewürzen",
+      "summary": "Kerry Group rechnet laut seiner Q3-Mitteilung vom 22.10. für 2027 mit einem inflationären Umfeld und höheren Kosten unter anderem für Gewürze und natürliche Öle. Die Aussage eines großen B2B-Wettbewerbers stützt unsere eigenen Preisgespräche für die Industriekontrakte 2027.",
+      "source": {
+        "url": "https://quartr.com/events/kerry-group-plc-krz-q3-2026_F9ekUyvb",
+        "name": "Quartr"
+      },
+      "tags": [
+        "kerry",
+        "kosten",
+        "kontrakte"
+      ]
+    }
+  ],
+  "standing": [
+    {
+      "id": "ppwr",
+      "label": "PPWR",
+      "status": "neu",
+      "summary": "Das EU-Parlament hat am 20.10.2026 in einer Teilabstimmung in erster Lesung über den Omnibus VIII entschieden (2025/0395(COD)), der Regeln der erweiterten Herstellerverantwortung für Batterien und Verpackungen aussetzen soll; das Dossier geht nun in den Trilog. Welche Teile genau abgestimmt wurden, ist noch nicht geprüft, bis zu einer Einigung gelten die bestehenden Pflichten unverändert. Folgerechtsakte, darunter der zur Kennzeichnung, sind weiter nicht erlassen; die genannte nächste Frist betrifft die erwartete Methodik der Kommission für Rezyklatanteile, nicht den Omnibus.",
+      "source": {
+        "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0395(COD)",
+        "name": "Europäisches Parlament, Legislative Observatory"
+      },
+      "next_deadline": "2026-12-31"
+    }
+  ]
+}

@@ -115,6 +115,44 @@
           "source_url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_373_61241.html"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W44",
+      "sent_date": "2026-10-28",
+      "items": [
+        {
+          "title": "Vietnam: Pfefferexporte steigen um 15 Prozent, Ernte 2027 durch anhaltenden Regen gefährdet",
+          "short_id": "pfeffer-vietnam-export-ernte-2027",
+          "source_url": "https://dtinews.dantri.com.vn/vietnam-today/vietnams-pepper-exports-earn-usd-139-billion-in-nine-months-20261023203550715.htm"
+        },
+        {
+          "title": "EU-Verbot fleischbezogener Namen: Auch Würzmittel könnten betroffen sein",
+          "short_id": "eu-fleischnamen-verbot-wuerzmittel-2026",
+          "source_url": "https://www.foodnavigator.com/Article/2026/10/27/eu-meaty-names-ban-may-include-crisps/"
+        },
+        {
+          "title": "Lebensbaum ruft Bohnenkraut wegen Pyrrolizidinalkaloiden zurück",
+          "short_id": "lebensbaum-bohnenkraut-pa-rueckruf-2026",
+          "source_url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261016_17_NI_Bohnenkraut,_gerebelt_und_getrocknet,_25_Gramm/261016_17_NI_Bohnenkraut,_gerebelt_und_getrocknet,_25_Gramm.html"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Zweiter Sumach-Rückruf: Chlorpyrifos und E 122 in Abido Sumak",
+          "short_id": "sumach-abido-chlorpyrifos-rueckruf-2026",
+          "source_url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261026_24_SH_Sumak/261026_24_SH_Sumak.html"
+        },
+        {
+          "title": "EFSA berät Gutachten zu Capsaicin und geräucherten Lebensmitteln",
+          "short_id": "efsa-capsaicin-raeucher-gutachten-2026",
+          "source_url": "https://www.efsa.europa.eu/sites/default/files/2026-10/contam_draft_agenda_163_plenary_20-22_october_2026.pdf"
+        },
+        {
+          "title": "Kerry erwartet für 2027 höhere Kosten bei Gewürzen",
+          "short_id": "kerry-q3-gewuerzkosten-2027",
+          "source_url": "https://quartr.com/events/kerry-group-plc-krz-q3-2026_F9ekUyvb"
+        }
+      ]
     }
   ]
 }
