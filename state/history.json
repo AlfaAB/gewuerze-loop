@@ -153,6 +153,44 @@
           "source_url": "https://quartr.com/events/kerry-group-plc-krz-q3-2026_F9ekUyvb"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W45",
+      "sent_date": "2026-11-04",
+      "items": [
+        {
+          "title": "Völpel insolvent: Bayerischer Bio-Trockner für Kräuter und Gewürze sucht Investor",
+          "short_id": "voelpel-insolvenz-2026",
+          "source_url": "https://verbraucherschutzforum.berlin/2026-11-02/traditionsunternehmen-voelpel-insolvent-75-arbeitsplaetze-bei-lebensmittelhersteller-in-bayern-gefaehrdet-444382"
+        },
+        {
+          "title": "Kunststoffe mit Lebensmittelkontakt: Neue EU-Regeln für Rezyklate ab 18. November",
+          "short_id": "fcm-kunststoff-rezyklat-vo-2026-2376",
+          "source_url": "https://bvlk.de/lebensmittelkontaktmaterialien-neue-eu-vorgaben-fuer-kunststoffe"
+        },
+        {
+          "title": "Knorr und Philips setzen auf Würzmischungen für die Heißluftfritteuse",
+          "short_id": "knorr-airfryer-versuni-2026",
+          "source_url": "https://www.foodingredientsfirst.com/news/air-fryer-innovation-unilever-knorr.html"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Maersk und Hapag-Lloyd: Indien-Europa-Dienst ME1 fährt wieder durch den Suezkanal",
+          "short_id": "maersk-me1-suez-indien-2026",
+          "source_url": "https://www.foodbusinessmea.com/maersk-hapag-lloyd-return-me1-india-europe-service-to-suez-canal/"
+        },
+        {
+          "title": "Bio-Marke J.Kinski stellt Betrieb ein",
+          "short_id": "jkinski-betriebseinstellung-2026",
+          "source_url": "https://etailment.de/magazin/2026-11-02-bio-marke-jkinski-schliesst-online-shop-und-manufaktur"
+        },
+        {
+          "title": "Zur-Mühlen-Gruppe schließt Wurstwerk Dissen",
+          "short_id": "zur-muehlen-dissen-schliessung-2026",
+          "source_url": "https://lebensmittelpraxis.de/industrie-aktuell/fleisch/50247-fleischbranche-unter-druck-zur-muehlen-gruppe-schliesst-wurstwerk-in-dissen.html"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-28T07:18:15.909Z",
+  "generated_at": "2026-11-04T07:16:56.458Z",
   "weeks": [
+    {
+      "iso_week": "2026-W45",
+      "year": 2026,
+      "week": 45,
+      "sent_date": "2026-11-04",
+      "lead": "Völpel insolvent: Bayerischer Bio-Trockner für Kräuter und Gewürze sucht Investor",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W44",
       "year": 2026,
