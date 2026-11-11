@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W46",
+  "year": 2026,
+  "week": 46,
+  "sent_date": "2026-11-11",
+  "lead": "McCormick und Unilever: Britische Kartellbehörde sieht Probleme bei Fixprodukten und trockenen Saucen",
+  "items": [
+    {
+      "id": "cma-mccormick-unilever-phase1-2026",
+      "category": "markt",
+      "title": "McCormick und Unilever: Britische Kartellbehörde sieht Probleme bei Fixprodukten und trockenen Saucen",
+      "summary": "Die britische Wettbewerbsbehörde CMA hat ihre Phase-1-Entscheidung zum Zusammenschluss von McCormick und Unilever Foods veröffentlicht. Sie sieht die realistische Gefahr einer erheblichen Wettbewerbsbeschränkung bei Trockenmischungen für Gerichte (etwa Chili con Carne) und, getrennt davon, bei trockenen Saucen im britischen Handel. Dort kämen Schwartz (McCormick) und Knorr (Unilever) zusammen mit großem Abstand auf Platz eins. Eigenmarken und andere Markenhersteller setzen der Fusion laut CMA kaum etwas entgegen, ein Markteintritt bei Fixprodukten sei wegen knapper Regalfläche schwer. Bei Senf sieht die CMA keine Bedenken. Die Parteien haben bis 18.11.2026 Zeit, Zusagen anzubieten, sonst folgt eine vertiefte Phase-2-Prüfung.",
+      "relevance": {
+        "folgen": "Direkt betroffen ist zunächst nur der britische Markt. Die Entscheidung zeigt aber, wie die Behörden den Fixprodukte-Markt abgrenzen, und gibt damit einen Hinweis darauf, worauf weitere Kartellbehörden achten könnten, deren Zustimmung laut CMA noch nötig ist. Für unseren Vertrieb heißt das: Bei Fixprodukten im Handel steht man einem noch größeren Anbieter gegenüber.",
+        "chance": "Keine direkte Produktidee. Sollten Zusagen zum Verkauf von Marken oder Sortimenten führen, kann daraus Bedarf an Lohnfertigung für Trockenmischungen entstehen; das lohnt sich zu beobachten."
+      },
+      "source": {
+        "url": "https://assets.publishing.service.gov.uk/media/6af40672b83b3cae0d0a21c3/_Summary_of_phase_1_decision_.pdf",
+        "name": "Competition and Markets Authority (CMA)"
+      },
+      "tags": [
+        "mccormick",
+        "unilever",
+        "knorr",
+        "fusionskontrolle"
+      ]
+    },
+    {
+      "id": "difenoconazol-rhg-gewuerze-2026-2299",
+      "category": "regularien",
+      "title": "Difenoconazol: EU senkt Rückstandshöchstgehalte für Pfeffer, Saatgewürze, Zimt und Nelken",
+      "summary": "Mit der Verordnung (EU) 2026/2299 vom 15.10.2026 senkt die EU die Höchstgehalte für das Fungizid Difenoconazol. Für Anis, Kümmel, Koriander, Kreuzkümmel, Dill, Fenchel, Bockshornklee, Kardamom, Muskat, Piment und Pfeffer einschließlich Szechuanpfeffer sinkt der Wert von 0,3 auf 0,15 mg/kg. Für Kapern, Zimt, Nelken, Macis und Safran gilt künftig die Bestimmungsgrenze, für Kurkuma und Süßholz 1,5 statt 3 mg/kg, für Basilikum 4 statt 10 mg/kg und für Knoblauch, Zwiebeln und Schalotten 0,2 statt 0,5 mg/kg. Die neuen Werte gelten ab 05.05.2027. Chili und Capsicum sind laut Quelle nicht aufgeführt.",
+      "relevance": {
+        "folgen": "Das trifft einen großen Teil des Rohwarensortiments. Einkaufsspezifikationen, Prüfpläne und Kontrakte mit Lieferung nach Mai 2027 sollten auf die neuen Werte umgestellt werden. Bei Zimt, Nelken und Macis bleibt praktisch keine Toleranz mehr, deshalb sollten Lieferanten früh Analysen nach neuem Maßstab vorlegen.",
+        "chance": "Keine direkte Produktidee."
+      },
+      "source": {
+        "url": "https://agrinfo.eu/book-of-reports/maximum-residue-level-for-difenoconazole/",
+        "name": "AGRINFO"
+      },
+      "tags": [
+        "difenoconazol",
+        "rueckstandshoechstgehalte",
+        "pfeffer",
+        "zimt"
+      ],
+      "deadline": "2027-05-05"
+    },
+    {
+      "id": "kreuzkuemmel-rabi-aussaat-trockenheit-2026",
+      "category": "rohstoff",
+      "title": "Kreuzkümmel: Trockene Böden in Indien gefährden die Aussaat 2026/27",
+      "summary": "Indischer Kreuzkümmel ist im Monatsvergleich deutlich gestiegen. Der Bericht vom 05.11. nennt für New Delhi 98 % (Grade A) 2,15 EUR/kg FOB, für New Delhi 99 % 2,23 EUR/kg FOB (Stand 31.10.) und für Surat 98 % 2,53 EUR/kg ab Werk (Stand 02.11.). In Gujarat und Rajasthan sind die Böden laut dem Bericht zu trocken, die Rabi-Aussaat könnte sich verzögern und kleiner ausfallen. Schon in der vergangenen Saison war die Anbaufläche laut Bericht von rund 470.000 auf 400.000 ha gesunken, die Produktion von rund 539.000 auf erwartete 470.000 t; amtlich bestätigt sind diese Zahlen nicht. Ausweichen ist nur nach Syrien (FCA Dordrecht 3,55 EUR/kg) oder Ägypten (FOB 3,70 EUR/kg) möglich, beides teurer.",
+      "relevance": {
+        "folgen": "Für Mischungen mit hohem Kreuzkümmelanteil steigt das Preisrisiko für 2027. Es lohnt sich zu prüfen, ob der Bedarf für Q1/Q2 2027 jetzt teilweise abgesichert werden sollte. Allerdings stammt die Einschätzung von einem Broker und sollte mit den eigenen Lieferanten abgeglichen werden.",
+        "chance": "Keine direkte Produktidee."
+      },
+      "source": {
+        "url": "https://commodity-board.com/indian-cumin-prices-poised-to-firm-as-dry-soils-threaten-new-rabi-crop",
+        "name": "Commodity Board (CMBroker)"
+      },
+      "tags": [
+        "kreuzkuemmel",
+        "indien",
+        "ernte",
+        "gujarat"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "fi-europe-2026-salz-umami",
+      "title": "Fi Europe 2026: Salzreduktion und Umami ohne E-Nummern",
+      "summary": "Auf der Fi Europe in Frankfurt (17. bis 19.11.) zeigen Saltwell ein natriumreduziertes Salz (rund 35 % weniger Natrium) und Lallemand die Hefeextrakte High-Lyfe 580 A und 583 A; beides ist für Rezepturen von B2B-Würzmischungen im Blick zu behalten.",
+      "source": {
+        "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-clean-label-reformulation.html",
+        "name": "FoodIngredientsFirst"
+      },
+      "tags": [
+        "salzreduktion",
+        "hefeextrakt",
+        "fi-europe"
+      ]
+    },
+    {
+      "id": "livekindly-greenforce-uebernahme-2026",
+      "title": "Livekindly Collective schließt Übernahme von Greenforce ab",
+      "summary": "Durch die Übernahme des Münchner Herstellers wird Livekindly nach eigener Aussage (auf Basis von NIQ-Daten) die Nr. 2 bei pflanzlichen Produkten in Deutschland; der Einkauf eines großen Abnehmers von Würzmischungen wird damit gebündelt, Lieferantenwechsel sind möglich.",
+      "source": {
+        "url": "https://lebensmittelpraxis.de/industrie-aktuell/sortiment/50298-pflanzenbasierte-lebensmittel-livekindly-collective-uebernimmt-muenchner-hersteller-greenforce.html",
+        "name": "Lebensmittel Praxis"
+      },
+      "tags": [
+        "greenforce",
+        "livekindly",
+        "fleischersatz"
+      ]
+    },
+    {
+      "id": "pinienkerne-salmonellen-rueckruf-2026",
+      "title": "Salmonellen in Bio-Pinienkernen: Rückrufe von Alnatura, dennree und dm",
+      "summary": "Am 05.11. riefen drei Bio-Anbieter Pinienkerne zurück, Alnatura zusätzlich einen Salatkerne-Mix; eine gemeinsame Vorstufe ist möglich, aber nicht belegt, deshalb sollten Lieferanten von Saaten und Kernen für Mischungen abgefragt werden.",
+      "source": {
+        "url": "https://www.produktwarnung.eu/2026/11/05/rueckruf-salmonellen-alnatura-ruft-pinienkerne-und-salatkerne-mix-zurueck/39303",
+        "name": "Produktwarnung.eu"
+      },
+      "tags": [
+        "salmonellen",
+        "pinienkerne",
+        "rueckruf"
+      ]
+    }
+  ],
+  "standing": [
+    {
+      "id": "ppwr",
+      "label": "PPWR",
+      "status": "unveraendert",
+      "summary": "Die PPWR gilt seit dem 12.08.2026 unmittelbar und in Deutschland zusammen mit dem VerpackDG. Von den Folgerechtsakten ist erst einer erlassen; der Durchführungsrechtsakt zur Kennzeichnung steht weiter aus, und die Bußgelder nach VerpackDG greifen ab dem 12.02.2027.",
+      "next_deadline": "2027-02-12"
+    }
+  ]
+}

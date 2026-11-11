@@ -191,6 +191,44 @@
           "source_url": "https://lebensmittelpraxis.de/industrie-aktuell/fleisch/50247-fleischbranche-unter-druck-zur-muehlen-gruppe-schliesst-wurstwerk-in-dissen.html"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W46",
+      "sent_date": "2026-11-11",
+      "items": [
+        {
+          "title": "McCormick und Unilever: Britische Kartellbehörde sieht Probleme bei Fixprodukten und trockenen Saucen",
+          "short_id": "cma-mccormick-unilever-phase1-2026",
+          "source_url": "https://assets.publishing.service.gov.uk/media/6af40672b83b3cae0d0a21c3/_Summary_of_phase_1_decision_.pdf"
+        },
+        {
+          "title": "Difenoconazol: EU senkt Rückstandshöchstgehalte für Pfeffer, Saatgewürze, Zimt und Nelken",
+          "short_id": "difenoconazol-rhg-gewuerze-2026-2299",
+          "source_url": "https://agrinfo.eu/book-of-reports/maximum-residue-level-for-difenoconazole/"
+        },
+        {
+          "title": "Kreuzkümmel: Trockene Böden in Indien gefährden die Aussaat 2026/27",
+          "short_id": "kreuzkuemmel-rabi-aussaat-trockenheit-2026",
+          "source_url": "https://commodity-board.com/indian-cumin-prices-poised-to-firm-as-dry-soils-threaten-new-rabi-crop"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Fi Europe 2026: Salzreduktion und Umami ohne E-Nummern",
+          "short_id": "fi-europe-2026-salz-umami",
+          "source_url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-clean-label-reformulation.html"
+        },
+        {
+          "title": "Livekindly Collective schließt Übernahme von Greenforce ab",
+          "short_id": "livekindly-greenforce-uebernahme-2026",
+          "source_url": "https://lebensmittelpraxis.de/industrie-aktuell/sortiment/50298-pflanzenbasierte-lebensmittel-livekindly-collective-uebernimmt-muenchner-hersteller-greenforce.html"
+        },
+        {
+          "title": "Salmonellen in Bio-Pinienkernen: Rückrufe von Alnatura, dennree und dm",
+          "short_id": "pinienkerne-salmonellen-rueckruf-2026",
+          "source_url": "https://www.produktwarnung.eu/2026/11/05/rueckruf-salmonellen-alnatura-ruft-pinienkerne-und-salatkerne-mix-zurueck/39303"
+        }
+      ]
     }
   ]
 }
