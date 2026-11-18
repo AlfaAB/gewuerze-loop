@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W47",
+  "year": 2026,
+  "week": 47,
+  "sent_date": "2026-11-18",
+  "lead": "Raucharomen: EU-Gericht bestätigt Aus für drei Primärprodukte",
+  "items": [
+    {
+      "id": "raucharomen-kerry-eug-t52324",
+      "category": "regularien",
+      "title": "Raucharomen: EU-Gericht bestätigt Aus für drei Primärprodukte",
+      "summary": "Das Gericht der EU hat die Nichtigkeitsklage der Kerry Group abgewiesen (Rechtssache T-523/24). Damit war es rechtmäßig, dass die Kommission die Zulassung von drei Raucharoma-Primärprodukten nicht verlängert hat. Diese standen seit 2013 auf der Unionsliste, die EFSA hatte Bedenken wegen Gentoxizität und Krebsrisiko geäußert. Nach dem Urteil muss der Antragsteller die Unbedenklichkeit nachweisen, und die gewährten Übergangsfristen hält das Gericht für ausreichend. Kerry kann binnen zwei Monaten Rechtsmittel beim EuGH einlegen. Wie lang die Übergangsfristen sind, steht nicht im Artikel.",
+      "relevance": {
+        "folgen": "Für BBQ-, Rub- und Fleischwürzungen mit Raucharoma gibt es jetzt kaum noch Aussicht, dass das Verbot gekippt wird. Wir sollten mit den Aromenlieferanten klären, ob eingesetzte Raucharomen auf einem der drei Primärprodukte beruhen und welche Übergangsfrist für unsere Rezepturen konkret gilt.",
+        "chance": "Rauchnoten ohne Raucharoma, etwa über geräuchertes Paprikapulver, geräuchertes Salz oder Chipotle, können wir B2B-Kunden als fertige Umstellungslösung für ihre Rezepturen anbieten."
+      },
+      "source": {
+        "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/eug-T52324-kerry-group-raucharoma-verbot-lebensmittel-gesundheitsgefahr-2026-11-11",
+        "name": "beck-aktuell"
+      },
+      "tags": [
+        "raucharoma",
+        "kerry",
+        "eug",
+        "bbq"
+      ]
+    },
+    {
+      "id": "efsa-alternaria-toxine-2026",
+      "category": "regularien",
+      "title": "Alternaria-Toxine: EFSA stuft fünf Toxine als gentoxisch ein, Paprikapulver im Fokus",
+      "summary": "Die EFSA hat ihre Risikobewertung zu Alternaria-Toxinen in Lebens- und Futtermitteln aktualisiert (DOI 10.2903/j.efsa.2026.10395). Fünf der acht bewerteten Toxine stuft sie als gentoxisch ein: AOH, AME, Altertoxin I und II sowie Stemphyltoxin III. Am häufigsten fand sie Tenuazonsäure, vor allem in Maulbeeren, Paprikapulver und Tomaten. Ob Tenuazonsäure gentoxisch ist, lässt sich mit den vorhandenen Daten nicht sagen. Die EFSA fordert mehr Daten. Maßnahmen oder Höchstgehalte der Kommission nennt die Meldung nicht.",
+      "relevance": {
+        "folgen": "Eine Pflicht folgt daraus noch nicht. Paprika- und Tomatenpulver sind aber Kernrohstoffe, und eine neue EFSA-Bewertung geht erfahrungsgemäß oft Richt- oder Höchstgehalten voraus. Es lohnt sich zu prüfen, ob Lieferanten bereits Alternaria-Analysen liefern können, und das Thema bei den nächsten Spezifikationen mitzudenken.",
+        "chance": "keine direkte Produktidee"
+      },
+      "source": {
+        "url": "https://www.efsa.europa.eu/en/news/alternaria-toxins-food-and-feed-efsa-updates-its-risk-assessment",
+        "name": "EFSA"
+      },
+      "tags": [
+        "alternaria",
+        "paprika",
+        "mykotoxine",
+        "efsa"
+      ]
+    },
+    {
+      "id": "pfeffer-ipc-welternte-2026",
+      "category": "rohstoff",
+      "title": "Pfeffer: IPC erwartet kleinere Welternte und feste Preise 2027",
+      "summary": "Die International Pepper Community schätzt die weltweite Pfefferproduktion 2026 auf rund 530.000 t, nach 552.635 t im Jahr 2025. Brasilien, Indonesien, Malaysia, Vietnam, Indien, Sri Lanka und Kambodscha melden ungünstiges Wetter, die IPC nennt El Niño und den Klimawandel als Risiken. Laut IPC lag brasilianischer schwarzer Pfeffer im November bei etwa 5.700 USD/t, malaysischer (ASTA) bei 9.100 USD/t. Der vietnamesische Verband VPSA warnt, 2027 könne schwieriger werden. Die IPC-Jahrestagung findet vom 30.11. bis 4.12. auf Bali statt.",
+      "relevance": {
+        "folgen": "Weil fast alle Herkünfte gleichzeitig knapp sind, lässt sich kaum auf eine andere ausweichen. Für Pfeffer als Basisrohstoff vieler Mischungen sollten wir die Kontraktabdeckung für Q1 2027 prüfen und uns auf feste Preise in den Gesprächen mit Lieferanten und Kunden einstellen.",
+        "chance": "keine direkte Produktidee"
+      },
+      "source": {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/14/a-regional-issue-for-south-east-asia-as-weather-risks-cloud-pepper-supply-prices-seen-firm-but-volatile-in-2027",
+        "name": "The Star (Bernama)"
+      },
+      "tags": [
+        "pfeffer",
+        "vietnam",
+        "brasilien",
+        "ernte"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "pfeffer-indien-rekord-760-inr-2026",
+      "title": "Schwarzer Pfeffer in Indien auf Rekordhoch von rund 760 INR/kg",
+      "summary": "Am Großmarkt (Terminal Market) in Kochi erreichte schwarzer Pfeffer am 13.11. rund 760 INR/kg, Marktbeobachter halten 800 INR/kg für möglich, Händler werfen vor, dass Importpfeffer für den Re-Export auf den Inlandsmarkt umgeleitet wird. Bei indischer Ware sollten wir deshalb Herkunft und Qualität genauer prüfen.",
+      "source": {
+        "url": "https://www.onmanorama.com/news/kerala/2026/11/15/black-pepper-prices-surge-to-record-high.html",
+        "name": "Onmanorama"
+      },
+      "tags": [
+        "pfeffer",
+        "indien",
+        "kochi"
+      ]
+    },
+    {
+      "id": "eudr-durchfuehrungsgesetz-bundestag-2026",
+      "title": "Agrarausschuss billigt Durchführungsgesetz zur EU-Entwaldungsverordnung",
+      "summary": "Der Agrarausschuss des Bundestags hat den Entwurf (Drucksache 21/8278) am 11.11. mit Änderungen angenommen, die abschließende Beratung im Plenum war für den 12.11. angesetzt. Das Gesetz macht die BLE zur Kontrollbehörde und soll ab 30.12.2026 gelten. Gewürze selbst fallen nicht unter die EUDR, Mischungen mit Kakao, Kaffee, Soja oder Palmöl-Derivaten können aber betroffen sein.",
+      "source": {
+        "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232810",
+        "name": "Deutscher Bundestag (hib)"
+      },
+      "tags": [
+        "eudr",
+        "entwaldung",
+        "ble"
+      ]
+    },
+    {
+      "id": "edeka-naturkind-tegut-muenchen-2026",
+      "title": "Edeka Südbayern macht vier Tegut-Märkte in München zu Naturkind-Biomärkten",
+      "summary": "Drei der Bio-Fachmärkte mit rund 700 m² eröffnen am 18.11., einer am 10.12. Gegen die Kartellamtsfreigabe hat Vollcorner Beschwerde beim OLG Düsseldorf eingelegt. Edekas eigenes Bio-Format ist als möglicher Listungsweg für Bio-Mischungen im Blick zu behalten.",
+      "source": {
+        "url": "https://lebensmittelpraxis.de/handel-aktuell/zentrale-management/50362-naturkind-maerkte-edeka-suedbayern-wandelt-tegut-filialen-in-bio-formate-um.html",
+        "name": "Lebensmittel Praxis"
+      },
+      "tags": [
+        "edeka",
+        "naturkind",
+        "tegut",
+        "bio"
+      ]
+    }
+  ],
+  "standing": [
+    {
+      "id": "ppwr",
+      "label": "PPWR",
+      "status": "neu",
+      "summary": "Mit dem Delegierten Beschluss (EU) 2026/1948 (Amtsblatt vom 28.10.2026) ist ein zweiter PPWR-Folgerechtsakt erlassen. Er erlaubt befristet und unter Bedingungen eine Ausnahme vom Schwermetallgrenzwert für bleihaltige Kristallglasverpackungen und hat für unsere Verpackungen keine Folgen. Der Durchführungsrechtsakt zur harmonisierten Kennzeichnung steht weiter aus, die Kommission führt ihn als 'in Vorbereitung'.",
+      "source": {
+        "url": "https://eulawlive.com/oj-commission-delegated-decision-introducing-time-limited-derogation-for-crystal-glass-packaging-under-packaging-and-packaging-waste-regulation/",
+        "name": "EU Law Live"
+      },
+      "next_deadline": "2027-02-12"
+    }
+  ]
+}

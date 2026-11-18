@@ -229,6 +229,44 @@
           "source_url": "https://www.produktwarnung.eu/2026/11/05/rueckruf-salmonellen-alnatura-ruft-pinienkerne-und-salatkerne-mix-zurueck/39303"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W47",
+      "sent_date": "2026-11-18",
+      "items": [
+        {
+          "title": "Raucharomen: EU-Gericht bestätigt Aus für drei Primärprodukte",
+          "short_id": "raucharomen-kerry-eug-t52324",
+          "source_url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/eug-T52324-kerry-group-raucharoma-verbot-lebensmittel-gesundheitsgefahr-2026-11-11"
+        },
+        {
+          "title": "Alternaria-Toxine: EFSA stuft fünf Toxine als gentoxisch ein, Paprikapulver im Fokus",
+          "short_id": "efsa-alternaria-toxine-2026",
+          "source_url": "https://www.efsa.europa.eu/en/news/alternaria-toxins-food-and-feed-efsa-updates-its-risk-assessment"
+        },
+        {
+          "title": "Pfeffer: IPC erwartet kleinere Welternte und feste Preise 2027",
+          "short_id": "pfeffer-ipc-welternte-2026",
+          "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/14/a-regional-issue-for-south-east-asia-as-weather-risks-cloud-pepper-supply-prices-seen-firm-but-volatile-in-2027"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Schwarzer Pfeffer in Indien auf Rekordhoch von rund 760 INR/kg",
+          "short_id": "pfeffer-indien-rekord-760-inr-2026",
+          "source_url": "https://www.onmanorama.com/news/kerala/2026/11/15/black-pepper-prices-surge-to-record-high.html"
+        },
+        {
+          "title": "Agrarausschuss billigt Durchführungsgesetz zur EU-Entwaldungsverordnung",
+          "short_id": "eudr-durchfuehrungsgesetz-bundestag-2026",
+          "source_url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232810"
+        },
+        {
+          "title": "Edeka Südbayern macht vier Tegut-Märkte in München zu Naturkind-Biomärkten",
+          "short_id": "edeka-naturkind-tegut-muenchen-2026",
+          "source_url": "https://lebensmittelpraxis.de/handel-aktuell/zentrale-management/50362-naturkind-maerkte-edeka-suedbayern-wandelt-tegut-filialen-in-bio-formate-um.html"
+        }
+      ]
     }
   ]
 }
