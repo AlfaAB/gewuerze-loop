@@ -267,6 +267,44 @@
           "source_url": "https://lebensmittelpraxis.de/handel-aktuell/zentrale-management/50362-naturkind-maerkte-edeka-suedbayern-wandelt-tegut-filialen-in-bio-formate-um.html"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W48",
+      "sent_date": "2026-11-25",
+      "items": [
+        {
+          "title": "Nelken: Missernten auf Madagaskar und den Komoren, Preise rund 3.000 USD je Tonne höher",
+          "short_id": "nelken-madagaskar-komoren-engpass-nov-2026",
+          "source_url": "https://commodity-board.com/clove-market-tightens-as-weather-hits-origins-and-imports-turn-costly"
+        },
+        {
+          "title": "EU und Großbritannien: SPS-Abkommen schafft ab März 2028 die meisten Lebensmittelkontrollen ab",
+          "short_id": "eu-uk-sps-abkommen-2028",
+          "source_url": "https://www.foodnavigator.com/Article/2026/11/23/how-will-the-sps-agreement-impact-food-and-drink/"
+        },
+        {
+          "title": "Handelstrends 2027: Würzbasen zum Fertigkochen und genau verortete Regionalküchen",
+          "short_id": "stylus-npd-trends-2027",
+          "source_url": "https://www.just-food.com/comment/four-food-trends-2027-grocery-npd/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Fortschreibung Öko-Verordnung: EU-Parlament stimmt der Verlängerung für Drittländer zu",
+          "short_id": "oeko-vo-drittlaender-parlament-2026",
+          "source_url": "https://agenceurope.eu/en/bulletin/article/13989/22/european-parliament-approves-regulation-on-production-and-labelling-of-organic-products"
+        },
+        {
+          "title": "Koriander: Wenig Anlieferung in Indien, Trockenheit bremst die Aussaat",
+          "short_id": "koriander-indien-rabi-trockenheit-nov-2026",
+          "source_url": "https://commodity-board.com/coriander-market-pauses-after-rally-as-indian-arrivals-tighten"
+        },
+        {
+          "title": "Kaufland Fleischwaren übernimmt Bratwurstwerk von Ponnath",
+          "short_id": "kaufland-ponnath-bratwurstwerk-2026",
+          "source_url": "https://www.presseportal.de/pm/111476/6396598"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T07:15:50.530Z",
+  "generated_at": "2026-11-25T07:15:59.262Z",
   "weeks": [
+    {
+      "iso_week": "2026-W48",
+      "year": 2026,
+      "week": 48,
+      "sent_date": "2026-11-25",
+      "lead": "Nelken: Missernten auf Madagaskar und den Komoren, Preise rund 3.000 USD je Tonne höher",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W47",
       "year": 2026,

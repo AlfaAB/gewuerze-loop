@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W48",
+  "year": 2026,
+  "week": 48,
+  "sent_date": "2026-11-25",
+  "lead": "Nelken: Missernten auf Madagaskar und den Komoren, Preise rund 3.000 USD je Tonne höher",
+  "items": [
+    {
+      "id": "nelken-madagaskar-komoren-engpass-nov-2026",
+      "category": "rohstoff",
+      "title": "Nelken: Missernten auf Madagaskar und den Komoren, Preise rund 3.000 USD je Tonne höher",
+      "summary": "Laut Commodity Board liegt das Angebot von den Komoren rund 37 Prozent unter den früheren Erwartungen. Für Madagaskar wurde zuvor ein Produktionsrückgang von 30 bis 40 Prozent gemeldet. Madagaskar-Ware, die bald verschifft wird, kostet etwa 11.200 bis 11.250 USD je Tonne, internationale Angebote liegen rund 3.000 USD je Tonne über dem früheren Niveau. Bio-Nelken ganz notieren FOB New Delhi bei 9,65 EUR/kg. Der Bericht erwartet bis zur nächsten Ernte kaum Entlastung und frühestens 2027 eine Erholung.",
+      "relevance": {
+        "folgen": "Nelken stecken in Lebkuchen-, Glühwein- und vielen Wurst- und Currymischungen. Wer noch nicht gedeckt ist, kauft auf längere Sicht teuer ein. Kontrakte und Kalkulationen für 2027 sollten das höhere Preisniveau schon enthalten, Preisgespräche mit Handel und B2B-Kunden eingeschlossen.",
+        "chance": "Rezepturen mit hohem Nelkenanteil prüfen und bei gleichem Geschmacksprofil teilweise auf Piment oder Zimt umstellen. Das sollte offen und nicht verdeckt geschehen."
+      },
+      "source": {
+        "url": "https://commodity-board.com/clove-market-tightens-as-weather-hits-origins-and-imports-turn-costly",
+        "name": "Commodity Board"
+      },
+      "tags": [
+        "nelken",
+        "madagaskar",
+        "komoren",
+        "preise"
+      ]
+    },
+    {
+      "id": "eu-uk-sps-abkommen-2028",
+      "category": "regularien",
+      "title": "EU und Großbritannien: SPS-Abkommen schafft ab März 2028 die meisten Lebensmittelkontrollen ab",
+      "summary": "Die EU und Großbritannien haben sich am 20. November politisch auf ihr Abkommen über gesundheitliche und pflanzenschutzrechtliche Maßnahmen (SPS) geeinigt; die Umsetzungsgesetzgebung steht noch aus. Es gilt ab dem 1. März 2028 und streicht die meisten Kontrollen und Bescheinigungen im Agrar- und Lebensmittelhandel zwischen Großbritannien und der EU. Dazu gehören Export-Gesundheitszeugnisse und Pflanzengesundheitszeugnisse. In den erfassten Bereichen folgt Großbritannien den EU-Regeln, und die Kennzeichnung \"Not for EU\" entfällt.",
+      "relevance": {
+        "folgen": "Für Lieferungen nach Großbritannien und Einkäufe von dort sinken ab 2028 Papieraufwand und Grenzrisiko. Dass Großbritannien in den erfassten Bereichen EU-Recht übernimmt, könnte getrennte Spezifikationen für den britischen Markt vereinfachen; wie weit das reicht, sagt die Quelle nicht. Ohne UK-Geschäft ist das vorerst nur Beobachtung.",
+        "chance": "Keine direkte Produktidee. Vertrieblich ist der britische Markt ab 2028 leichter erreichbar und könnte in die Exportplanung aufgenommen werden."
+      },
+      "source": {
+        "url": "https://www.foodnavigator.com/Article/2026/11/23/how-will-the-sps-agreement-impact-food-and-drink/",
+        "name": "FoodNavigator"
+      },
+      "tags": [
+        "grossbritannien",
+        "sps-abkommen",
+        "export"
+      ],
+      "deadline": "2028-03-01"
+    },
+    {
+      "id": "stylus-npd-trends-2027",
+      "category": "produkt",
+      "title": "Handelstrends 2027: Würzbasen zum Fertigkochen und genau verortete Regionalküchen",
+      "summary": "In einem Kommentar bei Just Food nennt Mandy Saven von Stylus vier Trends für Neuprodukte im Handel 2027. Beim \"80-Prozent-Hobbykoch\" übernehmen Kits und Flavour-Booster die Vorarbeit, der Verbraucher macht nur noch den letzten Schritt. Unter \"Pin-drop flavour\" versteht sie genau verortete Geschmäcker statt Sammelbegriffen wie \"asiatisch\", etwa Dunn's River Jamaican Green Seasoning, spanische Kochbasen von Perelló oder koreanische Saucen. Dazu kommen fertig gewürzte Vorratsprodukte wie Gemüsekonserven von Del Monte mit Ranch-Würzung und Klassiker in ungewohnten Varianten wie Kraft Mac & Cheese mit Chili Crisp. Es handelt sich um einen Meinungsbeitrag ohne eigene Daten.",
+      "relevance": {
+        "folgen": "Das ist eine Einschätzung und kein Marktbeleg, sie deckt sich aber mit dem Kerngeschäft eines Mischbetriebs. Im Handel und bei Eigenmarken könnte der Wettbewerb um regional genau benannte Würzbasen zunehmen.",
+        "chance": "Mischungen nach Region und Gericht statt nach Länderküche benennen, zum Beispiel ein jamaikanisches Green Seasoning oder eine Sofrito-Basis, und dazu Fertigkoch-Sets anbieten. Für Hersteller lassen sich Würzungen entwickeln, die Konserven oder Tiefkühlgemüse zu einer gewürzten Komplettmahlzeit machen."
+      },
+      "source": {
+        "url": "https://www.just-food.com/comment/four-food-trends-2027-grocery-npd/",
+        "name": "Just Food"
+      },
+      "tags": [
+        "trends-2027",
+        "handel",
+        "regionalkueche",
+        "kochbasen"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "oeko-vo-drittlaender-parlament-2026",
+      "title": "Fortschreibung Öko-Verordnung: EU-Parlament stimmt der Verlängerung für Drittländer zu",
+      "summary": "Das Parlament hat die im Trilog vereinbarte Reform mit 486 zu 39 Stimmen bei 140 Enthaltungen angenommen. Damit bleibt die Anerkennung von elf Drittländern, die sonst Ende 2026 ausgelaufen wäre, bis 31.12.2036 bestehen. Der Rat muss noch förmlich zustimmen, in Kraft tritt die Reform am Tag nach der Veröffentlichung im Amtsblatt.",
+      "source": {
+        "url": "https://agenceurope.eu/en/bulletin/article/13989/22/european-parliament-approves-regulation-on-production-and-labelling-of-organic-products",
+        "name": "Agence Europe"
+      },
+      "tags": [
+        "bio",
+        "oeko-verordnung",
+        "drittlaender",
+        "import"
+      ]
+    },
+    {
+      "id": "koriander-indien-rabi-trockenheit-nov-2026",
+      "title": "Koriander: Wenig Anlieferung in Indien, Trockenheit bremst die Aussaat",
+      "summary": "Indischer Koriander (99,9 %) ist FOB New Delhi auf 1,63 EUR/kg gestiegen, ägyptische Ware liegt unverändert bei 1,15 EUR/kg. Bei geringen Anlieferungen und abgebauten Altbeständen bremst Trockenheit in Gujarat und Rajasthan die Rabi-Aussaat.",
+      "source": {
+        "url": "https://commodity-board.com/coriander-market-pauses-after-rally-as-indian-arrivals-tighten",
+        "name": "Commodity Board"
+      },
+      "tags": [
+        "koriander",
+        "indien",
+        "aegypten",
+        "aussaat"
+      ]
+    },
+    {
+      "id": "kaufland-ponnath-bratwurstwerk-2026",
+      "title": "Kaufland Fleischwaren übernimmt Bratwurstwerk von Ponnath",
+      "summary": "Kaufland Fleischwaren will das Nürnberger Werk mit einer Kapazität von rund 5.000 t Wurstwaren im Jahr und etwa 100 Beschäftigten zum 1.1.2027 übernehmen. Das Bundeskartellamt muss noch zustimmen. Die Meldung zeigt, dass der Handel weiter selbst Wurst herstellt, was die Kundenstruktur für Wurstgewürze verändern kann.",
+      "source": {
+        "url": "https://www.presseportal.de/pm/111476/6396598",
+        "name": "Presseportal"
+      },
+      "tags": [
+        "kaufland",
+        "ponnath",
+        "wurst",
+        "uebernahme"
+      ]
+    }
+  ],
+  "standing": [
+    {
+      "id": "ppwr",
+      "label": "PPWR",
+      "status": "neu",
+      "summary": "Laut packaging journal (21.11.) sind die EU-weiten Sortierlabel für das zweite Quartal 2027 angekündigt; unser Grundstand nannte noch das vierte Quartal 2026; ein weiterer PPWR-Rechtsakt ist bis 20.11. nicht im Amtsblatt erschienen. Unsere Einschätzung: Da die Kennzeichnungspflicht 24 Monate nach Inkrafttreten des Rechtsakts greift, ist sie damit kaum vor Mitte 2029 zu erwarten. Die Bevollmächtigten-Pflicht für Lieferungen in andere EU-Staaten gilt weiter, weil Omnibus VIII noch nicht beschlossen ist, und die Rezyklat-Regeln bleiben für das vierte Quartal 2026 angekündigt.",
+      "source": {
+        "url": "https://packaging-journal.de/ppwr-monitoring-20261120/",
+        "name": "packaging journal"
+      },
+      "next_deadline": "2026-12-31"
+    }
+  ]
+}
